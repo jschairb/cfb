@@ -1,0 +1,36 @@
+--- 
+divisions_001: 
+  name: Division I FBS
+  updated_at: 2008-10-09 15:26:04
+  abbrev: FBS
+  id: "1"
+  point_value: "6.0"
+  created_at: 2008-10-07 10:48:29
+divisions_002: 
+  name: Division I FCS
+  updated_at: 2008-10-09 15:26:15
+  abbrev: FCS
+  id: "2"
+  point_value: "5.0"
+  created_at: 2008-10-07 10:48:29
+divisions_003: 
+  name: Division II
+  updated_at: 2008-10-09 15:26:23
+  abbrev: DII
+  id: "3"
+  point_value: "4.0"
+  created_at: 2008-10-07 10:48:29
+divisions_004: 
+  name: Division III
+  updated_at: 2008-10-09 15:26:35
+  abbrev: DIII
+  id: "4"
+  point_value: "3.0"
+  created_at: 2008-10-07 10:48:29
+divisions_005: 
+  name: NAIA
+  updated_at: 2008-10-09 15:26:52
+  abbrev: 
+  id: "5"
+  point_value: "2.0"
+  created_at: 2008-10-09 12:34:20
