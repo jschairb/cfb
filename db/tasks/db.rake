@@ -40,6 +40,9 @@ namespace :db do
     desc 'Load data from fixtures. Uses development database.'
     task :load do 
       require 'active_record/fixtures'
+      class Division < ActiveRecord::Base; has_many :conferences; end
+      class Conference < ActiveRecord::Base; belongs_to :division; end
+
       (ENV['FIXTURES'] ? ENV['FIXTURES'].split(/,/) : Dir.glob(File.join(APP_ROOT, 'db', 'data', '*.{yml,csv}'))).each do |fixture_file|
         Fixtures.create_fixtures('db/data', File.basename(fixture_file, '.*'))
       end

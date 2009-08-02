@@ -1,554 +1,556 @@
---- 
-conferences_018: 
-  name: Ivy Group
-  updated_at: 2008-10-07 13:38:32
-  abbrev: ""
-  id: "18"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
-conferences_040: 
-  name: American Southwest
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "44"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_039: 
-  name: West Virginia Intercollegiate Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "43"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
-conferences_061: 
-  name: Old Dominion Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "65"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_020: 
-  name: Mid-Eastern Athletic
-  updated_at: 2008-10-07 13:38:32
-  abbrev: ""
-  id: "20"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
-conferences_019: 
-  name: Metro Atlantic Athletic
-  updated_at: 2008-10-07 13:38:32
-  abbrev: ""
-  id: "19"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
-conferences_041: 
-  name: Centennial
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "45"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_062: 
-  name: Presidents' Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "66"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_021: 
-  name: Northeast
-  updated_at: 2008-10-07 13:38:32
-  abbrev: ""
-  id: "21"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
-conferences_042: 
-  name: Central Atlantic Collegiate
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "46"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_063: 
-  name: Souther California Intercollegiate Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "67"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+DEFAULTS: &DEFAULTS
+  updated_at: <%= Time.now.to_s(:db) %>
+  created_at: <%= Time.now.to_s(:db) %>
+
 conferences_001: 
   name: Big Ten
-  updated_at: 2008-10-07 13:38:32
   abbrev: B10
   id: "1"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
-conferences_022: 
-  name: Ohio Valley
-  updated_at: 2008-10-07 13:38:32
-  abbrev: ""
-  id: "22"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
-conferences_043: 
-  name: College Conference of Illinois & Wisconsin
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "47"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_064: 
-  name: Southern Collegiate Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "68"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d1
+  <<: *DEFAULTS
+
 conferences_002: 
   name: Atlantic Coast
-  updated_at: 2008-10-07 13:38:32
   abbrev: ACC
   id: "2"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
-conferences_023: 
-  name: Patriot League
-  updated_at: 2008-10-07 13:38:32
-  abbrev: ""
-  id: "23"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
-conferences_044: 
-  name: Eastern College Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "48"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_065: 
-  name: USA South Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "69"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_024: 
-  name: Southern
-  updated_at: 2008-10-07 13:38:32
-  abbrev: ""
-  id: "24"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
-conferences_045: 
-  name: Empire 8
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "49"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_066: 
-  name: University Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "70"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d1
+  <<: *DEFAULTS
+
 conferences_003: 
   name: Big 12
-  updated_at: 2008-10-07 13:38:32
   abbrev: B12
   id: "3"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
-conferences_067: 
-  name: Wisconsin Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "71"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
-conferences_046: 
-  name: Heartland Collegiate Athletic
-  updated_at: 2008-10-07 13:38:33
-  abbrev: ""
-  id: "50"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d1
+  <<: *DEFAULTS
+
 conferences_004: 
   name: Big East
-  updated_at: 2008-10-07 13:38:32
   abbrev: BigEast
   id: "4"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
+  division: d1
+  <<: *DEFAULTS
+
+conferences_018: 
+  name: Ivy Group
+  abbrev: ""
+  id: "18"
+  division: d1a
+  <<: *DEFAULTS
+
+conferences_040: 
+  name: American Southwest
+  abbrev: ""
+  id: "44"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_039: 
+  name: West Virginia Intercollegiate Athletic
+  abbrev: ""
+  id: "43"
+  division: d2
+  <<: *DEFAULTS
+
+conferences_061: 
+  name: Old Dominion Athletic
+  abbrev: ""
+  id: "65"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_020: 
+  name: Mid-Eastern Athletic
+  abbrev: ""
+  id: "20"
+  division: d1a
+  <<: *DEFAULTS
+
+conferences_019: 
+  name: Metro Atlantic Athletic
+  abbrev: ""
+  id: "19"
+  division: d1a
+  <<: *DEFAULTS
+
+conferences_041: 
+  name: Centennial
+  abbrev: ""
+  id: "45"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_062: 
+  name: Presidents' Athletic
+  abbrev: ""
+  id: "66"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_021: 
+  name: Northeast
+  abbrev: ""
+  id: "21"
+  division: d1a
+  <<: *DEFAULTS
+
+conferences_042: 
+  name: Central Atlantic Collegiate
+  abbrev: ""
+  id: "46"
+  created_at: 2008-10-07 13:38:33
+  <<: *DEFAULTS
+
+conferences_063: 
+  name: Souther California Intercollegiate Athletic
+  abbrev: ""
+  id: "67"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_022: 
+  name: Ohio Valley
+  abbrev: ""
+  id: "22"
+  division: d1a
+  <<: *DEFAULTS
+
+conferences_043: 
+  name: College Conference of Illinois & Wisconsin
+  abbrev: ""
+  id: "47"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_064: 
+  name: Southern Collegiate Athletic
+  abbrev: ""
+  id: "68"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_023: 
+  name: Patriot League
+  abbrev: ""
+  id: "23"
+  division: d1a
+  <<: *DEFAULTS
+
+conferences_044: 
+  name: Eastern College Athletic
+  abbrev: ""
+  id: "48"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_065: 
+  name: USA South Athletic
+  abbrev: ""
+  id: "69"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_024: 
+  name: Southern
+  abbrev: ""
+  id: "24"
+  division: d1a
+  <<: *DEFAULTS
+
+conferences_045: 
+  name: Empire 8
+  abbrev: ""
+  id: "49"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_066: 
+  name: University Athletic
+  abbrev: ""
+  id: "70"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_067: 
+  name: Wisconsin Athletic
+  abbrev: ""
+  id: "71"
+  division: d3
+  <<: *DEFAULTS
+
+conferences_046: 
+  name: Heartland Collegiate Athletic
+  abbrev: ""
+  id: "50"
+  division: d3
+  <<: *DEFAULTS
+
 conferences_025: 
   name: Southland
-  updated_at: 2008-10-07 13:38:32
   abbrev: ""
   id: "25"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_068: 
   name: D-1AA Independents
-  updated_at: 2008-10-08 23:54:13
   abbrev: 
   id: "72"
-  division_id: "2"
-  created_at: 2008-10-08 23:54:13
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_005: 
   name: Conference USA
-  updated_at: 2008-10-07 13:38:32
   abbrev: CUSA
   id: "5"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
+  division: d1
+  <<: *DEFAULTS
+
 conferences_026: 
   name: Southwestern Athletic
-  updated_at: 2008-10-07 13:38:32
   abbrev: ""
   id: "26"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_047: 
   name: Illini-Badger Intercollegiate Football
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "51"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_070: 
   name: Pioneer
-  updated_at: 2008-10-09 00:02:24
   abbrev: 
   id: "74"
-  division_id: "2"
-  created_at: 2008-10-09 00:02:24
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_069: 
   name: Great West
-  updated_at: 2008-10-08 23:58:02
   abbrev: 
   id: "73"
-  division_id: "2"
-  created_at: 2008-10-08 23:58:02
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_006: 
   name: Independent
-  updated_at: 2008-10-07 13:38:32
   abbrev: Ind.
   id: "6"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
+  division: d1
+  <<: *DEFAULTS
+
 conferences_027: 
   name: Central Intercollegiate Athletic Association
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "29"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_048: 
   name: Independent
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "52"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_071: 
   name: Great Lakes Football
-  updated_at: 2008-10-09 00:06:44
   abbrev: 
   id: "75"
-  division_id: "3"
-  created_at: 2008-10-09 00:06:44
+  division: d2
+  <<: *DEFAULTS
+
 conferences_007: 
   name: Mid-American
-  updated_at: 2008-10-07 13:38:32
   abbrev: MAC
   id: "7"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
+  division: d1
+  <<: *DEFAULTS
+
 conferences_028: 
   name: Great Lakes Intercollegiate Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "30"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_050: 
   name: Liberty League
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "54"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_049: 
   name: Iowa Intercollegiate Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "53"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_072: 
   name: Northeast-10
-  updated_at: 2008-10-09 00:18:56
   abbrev: 
   id: "76"
-  division_id: "3"
-  created_at: 2008-10-09 00:18:56
+  division: d2
+  <<: *DEFAULTS
+
 conferences_008: 
   name: Mountain West
-  updated_at: 2008-10-07 13:38:32
   abbrev: MWC
   id: "8"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
+  division: d1
+  <<: *DEFAULTS
+
 conferences_030: 
   name: Independent
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "32"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_029: 
   name: Gulf South
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "31"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_051: 
   name: Michigan Intercollegiate Athletic Association
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "55"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_073: 
   name: D-II Independents
-  updated_at: 2008-10-09 00:35:59
   abbrev: 
   id: "77"
-  division_id: "3"
-  created_at: 2008-10-09 00:35:59
+  division: d2
+  <<: *DEFAULTS
+
 conferences_010: 
   name: Southeastern
-  updated_at: 2008-10-07 13:38:32
   abbrev: SEC
   id: "10"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
+  division: d1
+  <<: *DEFAULTS
+
 conferences_009: 
   name: Pacific-10
-  updated_at: 2008-10-07 13:38:32
   abbrev: P10
   id: "9"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
+  division: d1
+  <<: *DEFAULTS
+
 conferences_031: 
   name: Lone Star
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "33"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_052: 
   name: Middle Atlantic States Collegiate Athletic Corporation
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "56"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_074: 
   name: D-III Independents
-  updated_at: 2008-10-09 12:02:53
   abbrev: 
   id: "78"
-  division_id: "4"
-  created_at: 2008-10-09 12:02:53
+  division: d3
+  <<: *DEFAULTS
+
 conferences_011: 
   name: Sun Belt
-  updated_at: 2008-10-07 13:38:32
   abbrev: SBC
   id: "11"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
+  division: d1
+  <<: *DEFAULTS
+
 conferences_032: 
   name: Mid-America Intercollegiate Athletics Association
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "34"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_053: 
   name: Midwest
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "57"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_075: 
   name: Northern Athletic
-  updated_at: 2008-10-09 12:18:55
   abbrev: 
   id: "79"
-  division_id: "4"
-  created_at: 2008-10-09 12:18:55
+  division: d3
+  <<: *DEFAULTS
+
 conferences_012: 
   name: Western Athletic
-  updated_at: 2008-10-07 13:38:32
   abbrev: WAC
   id: "12"
-  division_id: "1"
-  created_at: 2008-10-07 13:38:32
+  division: d1
+  <<: *DEFAULTS
+
 conferences_033: 
   name: North Central Intercollegiate Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "36"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_054: 
   name: Minnesota Intercollegiate Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "58"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_076: 
   name: St. Louis Intercollegiate Athletic
-  updated_at: 2008-10-09 12:20:59
   abbrev: 
   id: "80"
-  division_id: "4"
-  created_at: 2008-10-09 12:20:59
+  division: d3
+  <<: *DEFAULTS
+
 conferences_013: 
   name: Big Sky
-  updated_at: 2008-10-07 13:38:32
   abbrev: ""
   id: "13"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_034: 
   name: Northern Sun Intercollegiate
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "37"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_055: 
   name: New England Football
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "59"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_077: 
   name: Upper Midwest Athletic
-  updated_at: 2008-10-09 12:23:12
   abbrev: 
   id: "81"
-  division_id: "4"
-  created_at: 2008-10-09 12:23:12
+  division: d3
+  <<: *DEFAULTS
+
 conferences_035: 
   name: Pennsylvania State Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "38"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_056: 
   name: New England Small College Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "60"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_014: 
   name: Big South
-  updated_at: 2008-10-07 13:38:32
   abbrev: ""
   id: "14"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_078: 
   name: Great Northwest Athletic
-  updated_at: 2008-10-09 12:28:09
   abbrev: 
   id: "82"
-  division_id: "4"
-  created_at: 2008-10-09 12:28:09
+  division: d3
+  <<: *DEFAULTS
+
 conferences_057: 
   name: New Jersey Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "61"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_015: 
   name: Colonial Athletic
-  updated_at: 2008-10-07 13:38:32
   abbrev: ""
   id: "15"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_036: 
   name: Rocky Mountain Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "39"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
-conferences_079: 
-  name: NAIA
-  updated_at: 2008-10-09 12:34:35
-  abbrev: 
-  id: "83"
-  division_id: "5"
-  created_at: 2008-10-09 12:34:35
+  division: d2
+  <<: *DEFAULTS
+
 conferences_016: 
   name: Missouri Valley
-  updated_at: 2008-10-08 23:52:42
   abbrev: Gateway
   id: "16"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_037: 
   name: South Atlantic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "40"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_058: 
   name: North Coast Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "62"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_017: 
   name: Independent
-  updated_at: 2008-10-07 13:38:32
   abbrev: ""
   id: "17"
-  division_id: "2"
-  created_at: 2008-10-07 13:38:32
+  division: d1a
+  <<: *DEFAULTS
+
 conferences_038: 
   name: Southern Intercollegiate Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "41"
-  division_id: "3"
-  created_at: 2008-10-07 13:38:33
+  division: d2
+  <<: *DEFAULTS
+
 conferences_060: 
   name: Ohio Athletic
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "64"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
 conferences_059: 
   name: Northwest
-  updated_at: 2008-10-07 13:38:33
   abbrev: ""
   id: "63"
-  division_id: "4"
-  created_at: 2008-10-07 13:38:33
+  division: d3
+  <<: *DEFAULTS
+
+naia_generic: 
+  name: NAIA
+  abbrev: 
+  id: "83"
+  division: naia
+  <<: *DEFAULTS

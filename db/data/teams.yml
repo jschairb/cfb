@@ -1,4 +1,7 @@
---- 
+DEFAULTS: &DEFAULTS
+  updated_at: <%= Time.now.to_s(:db) %>
+  created_at: <%= Time.now.to_s(:db) %>
+
 teams_591: 
   updated_at: 2008-10-11 00:27:58
   ncaa_name: Western New Mexico University

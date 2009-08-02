@@ -1,36 +1,28 @@
---- 
-divisions_001: 
+DEFAULTS: &DEFAULTS
+  updated_at: <%= Time.now.to_s(:db) %>
+  created_at: <%= Time.now.to_s(:db) %>
+
+d1: 
   name: Division I FBS
-  updated_at: 2008-10-09 15:26:04
   abbrev: FBS
-  id: "1"
-  point_value: "6.0"
-  created_at: 2008-10-07 10:48:29
-divisions_002: 
+  <<: *DEFAULTS
+
+d1a: 
   name: Division I FCS
-  updated_at: 2008-10-09 15:26:15
   abbrev: FCS
-  id: "2"
-  point_value: "5.0"
-  created_at: 2008-10-07 10:48:29
-divisions_003: 
+  <<: *DEFAULTS
+
+d2: 
   name: Division II
-  updated_at: 2008-10-09 15:26:23
   abbrev: DII
-  id: "3"
-  point_value: "4.0"
-  created_at: 2008-10-07 10:48:29
-divisions_004: 
+  <<: *DEFAULTS
+
+d3: 
   name: Division III
-  updated_at: 2008-10-09 15:26:35
   abbrev: DIII
-  id: "4"
-  point_value: "3.0"
-  created_at: 2008-10-07 10:48:29
-divisions_005: 
+  <<: *DEFAULTS
+
+naia: 
   name: NAIA
-  updated_at: 2008-10-09 15:26:52
-  abbrev: 
-  id: "5"
-  point_value: "2.0"
-  created_at: 2008-10-09 12:34:20
+  abbrev: NAIA
+  <<: *DEFAULTS

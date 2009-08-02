@@ -16,6 +16,22 @@ class InitialSchema < ActiveRecord::Migration
       t.timestamps
     end
 
+    create_table :games do |t|
+      t.integer :team_id
+      t.integer :opponent_id
+      t.date    :date
+      t.boolean :home
+      t.boolean :neutral
+      t.string  :opponent
+      t.string  :result
+      t.integer :score_team
+      t.integer :score_opponent
+      t.string  :location
+      t.string  :note
+      
+      t.timestamps
+    end
+
     create_table :teams do |t|
       t.integer :conference_id
       t.string :ncaa_id

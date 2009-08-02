@@ -27,6 +27,22 @@ ActiveRecord::Schema.define(:version => 2009072604003) do
     t.datetime "updated_at"
   end
 
+  create_table "games", :force => true do |t|
+    t.integer  "team_id"
+    t.integer  "opponent_id"
+    t.date     "date"
+    t.boolean  "home"
+    t.boolean  "neutral"
+    t.string   "opponent"
+    t.string   "result"
+    t.integer  "score_team"
+    t.integer  "score_opponent"
+    t.string   "location"
+    t.string   "note"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "teams", :force => true do |t|
     t.integer  "conference_id"
     t.string   "ncaa_id"
