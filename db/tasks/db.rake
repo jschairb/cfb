@@ -30,10 +30,31 @@ namespace :db do
         File.open("#{APP_ROOT}/db/data/#{table_name}.yml", 'w') do |file|
           data = ActiveRecord::Base.connection.select_all(sql % table_name)
           file.write data.inject({}) { |hash, record|
-            hash["#{table_name}_#{i.succ!}"] = record
+            hash[sanitize_record_label(table_name,i,record)] = sanitize_record(record) 
             hash
           }.to_yaml
         end
+      end
+    end
+
+    def sanitize_record(record)
+      %w(id created_at updated_at).each do |col|
+        record.delete(col)
+      end
+      record.merge("<<".intern => "*DEFAULTS")
+    end
+
+    def sanitize_record_label(table_name, count, record)
+      if table_name == "teams"
+        if record['ncaa_name'].present?
+          record['ncaa_name'].gsub(" ", "").underscore.tableize
+        elsif record['ncaa_id'].present?
+          "ncaa_team_#{record['ncaa_id']}"
+        else
+          "#{table_name}_#{count.succ!}"
+        end
+      else
+        "#{table_name}_#{count.succ!}"
       end
     end
 
@@ -42,7 +63,8 @@ namespace :db do
       require 'active_record/fixtures'
       class Division < ActiveRecord::Base; has_many :conferences; end
       class Conference < ActiveRecord::Base; belongs_to :division; has_many :teams; end
-      class Team < ActiveRecord::Base; belongs_to :conference; end
+      class Team < ActiveRecord::Base; belongs_to :conference; has_many :games; end
+      class Game < ActiveRecord::Base; belongs_to :team; end
 
       (ENV['FIXTURES'] ? ENV['FIXTURES'].split(/,/) : Dir.glob(File.join(APP_ROOT, 'db', 'data', '*.{yml,csv}'))).each do |fixture_file|
         Fixtures.create_fixtures('db/data', File.basename(fixture_file, '.*'))
