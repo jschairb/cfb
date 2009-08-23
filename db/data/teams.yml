@@ -3,5013 +3,3130 @@ DEFAULTS: &DEFAULTS
   created_at: <%= Time.now.to_s(:db) %>
 
 teams_591: 
-  updated_at: 2008-10-11 00:27:58
   ncaa_name: Western New Mexico University
-  id: "591"
   ncaa_id: "1445"
   conference_id: "39"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_544: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: U.S. Military Academy
-  id: "544"
   ncaa_id: "725"
-  conference_id: "6"
-  created_at: 2008-10-06 00:42:03
+  conference: Ind
+  <<: *DEFAULTS
 teams_307: 
-  updated_at: 2008-10-11 00:27:25
   ncaa_name: Massachusetts Maritime Academy
-  id: "307"
   ncaa_id: "399"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_117: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Colgate University
-  id: "117"
   ncaa_id: "153"
-  conference_id: "23"
-  created_at: 2008-10-06 00:42:01
+  conference: Patriot
+  <<: *DEFAULTS
 teams_354: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Morgan State University
-  id: "354"
   ncaa_id: "446"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:02
+  conference: MEAC
+  <<: *DEFAULTS
 teams_164: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Emory and Henry College
-  id: "164"
   ncaa_id: "216"
-  conference_id: "65"
-  created_at: 2008-10-06 00:42:01
+  conference: ODAC
+  <<: *DEFAULTS
 teams_592: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Western Oregon University
-  id: "592"
   ncaa_id: "1446"
   conference_id: "82"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_545: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: U.S. Naval Academy
-  id: "545"
   ncaa_id: "726"
-  conference_id: "6"
-  created_at: 2008-10-06 00:42:03
+  conference: Ind
+  <<: *DEFAULTS
 teams_308: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: University of Massachusetts, Amherst
-  id: "308"
   ncaa_id: "400"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:02
+  conference: Colonial
+  <<: *DEFAULTS
 teams_118: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of Colorado, Boulder
-  id: "118"
   ncaa_id: "157"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:01
+  conference: B12
+  <<: *DEFAULTS
 teams_355: 
-  updated_at: 2008-10-11 00:27:32
   ncaa_name: State University of New York at Morrisville
-  id: "355"
   ncaa_id: "30067"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_165: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Emporia State University
-  id: "165"
   ncaa_id: "1071"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_593: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Western State College of Colorado
-  id: "593"
   ncaa_id: "2759"
   conference_id: "39"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_546: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Union College (New York)
-  ranking: "2.35227272727273"
-  id: "546"
   ncaa_id: "727"
   conference_id: "54"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_309: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: University of Massachusetts, Dartmouth
-  ranking: "6.38585858585859"
-  id: "309"
   ncaa_id: "656"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_119: 
-  updated_at: 2008-10-09 15:56:14
   ncaa_name: Colorado College
-  ranking: "0.0"
-  id: "119"
   ncaa_id: "154"
   conference_id: "68"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_356: 
-  updated_at: 2008-10-11 01:22:44
-  ncaa_name: Mount Ida College
-  ranking: "5.13855421686747"
-  id: "356"
   ncaa_id: "27901"
   conference_id: "78"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_166: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Endicott College
-  ranking: "4.60408163265306"
-  id: "166"
   ncaa_id: "8981"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_594: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Western Washington University
-  ranking: "6.61414141414141"
-  id: "594"
   ncaa_id: "1448"
   conference_id: "82"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_547: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Upper Iowa University
-  ranking: "2.08620689655172"
-  id: "547"
   ncaa_id: "728"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_357: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: College of Mount St. Joseph
-  ranking: "7.01041666666667"
-  id: "357"
   ncaa_id: "8567"
   conference_id: "50"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_167: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Eureka College
-  ranking: "4.66470588235294"
-  id: "167"
   ncaa_id: "218"
   conference_id: "80"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_595: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Westfield State College
-  ranking: "4.2020202020202"
-  id: "595"
   ncaa_id: "777"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_548: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Ursinus College
-  ranking: "4.95454545454545"
-  id: "548"
   ncaa_id: "730"
-  conference_id: "45"
-  created_at: 2008-10-06 00:42:03
+  conference: Centennial
+  <<: *DEFAULTS
 teams_358: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Mount Union College
-  ranking: "10.13"
-  id: "358"
   ncaa_id: "452"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_168: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Fairleigh Dickinson University, Florham
-  ranking: "2.55555555555556"
-  id: "168"
   ncaa_id: "221"
   conference_id: "56"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_596: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Westminster College (Missouri)
-  ranking: "4.71428571428571"
-  id: "596"
   ncaa_id: "1450"
   conference_id: "80"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_549: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: University of Utah
-  ranking: "12.5769230769231"
-  id: "549"
   ncaa_id: "732"
-  conference_id: "8"
-  created_at: 2008-10-06 00:42:03
+  conference: MWC
+  <<: *DEFAULTS
 teams_359: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Muhlenberg College
-  ranking: "9.45918367346939"
-  id: "359"
   ncaa_id: "453"
-  conference_id: "45"
-  created_at: 2008-10-06 00:42:02
+  conference: Centennial
+  <<: *DEFAULTS
 teams_169: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Fairmont State University
-  ranking: "4.6970297029703"
-  id: "169"
   ncaa_id: "1076"
-  conference_id: "43"
-  created_at: 2008-10-06 00:42:01
+  conference: WVIAC
+  <<: *DEFAULTS
 teams_597: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Westminster College (Pennsylvania)
-  ranking: "4.26865671641791"
-  id: "597"
   ncaa_id: "1451"
-  conference_id: "66"
-  created_at: 2008-10-06 00:42:03
+  conference: Presidents
+  <<: *DEFAULTS
 teams_600: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Whitworth University
-  ranking: "4.19753086419753"
-  id: "600"
   ncaa_id: "1454"
   conference_id: "63"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_598: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Wheaton College (Illinois)
-  ranking: "8.82323232323232"
-  id: "598"
   ncaa_id: "778"
   conference_id: "47"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_410: 
-  updated_at: 2008-10-11 00:27:35
   ncaa_name: Ohio Wesleyan University
-  ranking: "0.0"
-  id: "410"
   ncaa_id: "520"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_220: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hofstra University
-  ranking: "4.57985611510791"
-  id: "220"
   ncaa_id: "283"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:01
+  conference: Colonial
+  <<: *DEFAULTS
 teams_030: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Assumption College
-  ranking: "2.0"
-  id: "30"
   ncaa_id: "36"
   conference_id: "76"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_601: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Widener University
-  ranking: "4.25274725274725"
-  id: "601"
   ncaa_id: "783"
   conference_id: "56"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_599: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Whittier College
-  ranking: "2.33333333333333"
-  id: "599"
   ncaa_id: "781"
   conference_id: "67"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_411: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: University of Oklahoma
-  ranking: "11.8263888888889"
-  id: "411"
   ncaa_id: "522"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:02
+  conference: B12
+  <<: *DEFAULTS
 teams_221: 
-  updated_at: 2008-10-11 01:22:39
-  ncaa_name: College of the Holy Cross
-  ranking: "3.34401709401709"
-  id: "221"
   ncaa_id: "285"
-  conference_id: "23"
-  created_at: 2008-10-06 00:42:01
+  conference: Patriot
+  <<: *DEFAULTS
 teams_031: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Auburn University
-  ranking: "8.08920187793427"
-  id: "31"
   ncaa_id: "37"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:00
+  conference: SEC
+  <<: *DEFAULTS
 teams_602: 
-  updated_at: 2008-10-11 00:27:58
   ncaa_name: Wilkes University
-  ranking: "0.0"
-  id: "602"
   ncaa_id: "784"
   conference_id: "56"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_412: 
-  updated_at: 2008-10-11 00:27:36
   ncaa_name: Oklahoma Panhandle State University
-  ranking: "0.0"
-  id: "412"
   ncaa_id: "24342"
   conference_id: "77"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_222: 
-  updated_at: 2008-10-09 15:56:24
   ncaa_name: Hope College
-  ranking: "0.0"
-  id: "222"
   ncaa_id: "286"
   conference_id: "55"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_032: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Augsburg College
-  ranking: "9.71578947368421"
-  id: "32"
   ncaa_id: "38"
   conference_id: "58"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_080: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of California, Los Angeles
-  ranking: "4.6"
-  id: "80"
   ncaa_id: "110"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:01
+  conference: Pac10
+  <<: *DEFAULTS
 teams_603: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Willamette University
-  ranking: "9.69135802469136"
-  id: "603"
   ncaa_id: "785"
   conference_id: "63"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_460: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Shaw University
-  ranking: "2.7972972972973"
-  id: "460"
   ncaa_id: "636"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_413: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Oklahoma State University
-  ranking: "11.2111111111111"
-  id: "413"
   ncaa_id: "521"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:02
+  conference: B12
+  <<: *DEFAULTS
 teams_223: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: University of Houston
-  ranking: "5.11048951048951"
-  id: "223"
   ncaa_id: "288"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:01
+  conference: CUSA
+  <<: *DEFAULTS
 teams_033: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Augustana College (Illinois)
-  ranking: "6.89285714285714"
-  id: "33"
   ncaa_id: "40"
   conference_id: "47"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_270: 
-  updated_at: 2008-10-11 00:27:24
   ncaa_name: Lawrence University
-  ranking: "0.0"
-  id: "270"
   ncaa_id: "348"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_604: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: College of William and Mary
-  ranking: "4.78125"
-  id: "604"
   ncaa_id: "786"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:03
+  conference: Colonial
+  <<: *DEFAULTS
 teams_461: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Shenandoah University
-  ranking: "1.89375"
-  id: "461"
   ncaa_id: "637"
   conference_id: "69"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_414: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Olivet College
-  ranking: "1.87142857142857"
-  id: "414"
   ncaa_id: "525"
   conference_id: "55"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_224: 
-  updated_at: 2008-10-09 15:56:25
   ncaa_name: Howard Payne University
-  ranking: "0.0"
-  id: "224"
   ncaa_id: "2741"
-  conference_id: "44"
-  created_at: 2008-10-06 00:42:01
+  conference: ASWC
+  <<: *DEFAULTS
 teams_034: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Augustana College (South Dakota)
-  ranking: "8.33333333333333"
-  id: "34"
   ncaa_id: "41"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_271: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Lebanon Valley College
-  ranking: "7.02272727272727"
-  id: "271"
   ncaa_id: "351"
   conference_id: "56"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_081: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Capital University
-  ranking: "9.48484848484848"
-  id: "81"
   ncaa_id: "117"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_605: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: William Paterson University of New Jersey
-  ranking: "1.91"
-  id: "605"
   ncaa_id: "787"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_462: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Shepherd University
-  ranking: "3.54"
-  id: "462"
   ncaa_id: "10870"
-  conference_id: "43"
-  created_at: 2008-10-06 00:42:03
+  conference: WVIAC
+  <<: *DEFAULTS
 teams_415: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: University of Oregon
-  ranking: "8.27586206896552"
-  id: "415"
   ncaa_id: "529"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:02
+  conference: Pac10
+  <<: *DEFAULTS
 teams_225: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Howard University
-  ranking: "2.43577235772358"
-  id: "225"
   ncaa_id: "290"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:01
+  conference: MEAC
+  <<: *DEFAULTS
 teams_035: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Aurora University
-  ranking: "6.84278350515464"
-  id: "35"
   ncaa_id: "42"
   conference_id: "79"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_272: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Lehigh University
-  ranking: "2.3195652173913"
-  id: "272"
   ncaa_id: "352"
-  conference_id: "23"
-  created_at: 2008-10-06 00:42:02
+  conference: Patriot
+  <<: *DEFAULTS
 teams_082: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Carleton College
-  ranking: "10.0612244897959"
-  id: "82"
   ncaa_id: "118"
   conference_id: "58"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_606: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Williams College
-  ranking: "6.94791666666667"
-  id: "606"
   ncaa_id: "789"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_463: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Shippensburg University of Pennsylvania
-  ranking: "5.43417366946779"
-  id: "463"
   ncaa_id: "638"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_416: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Oregon State University
-  ranking: "4.79041095890411"
-  id: "416"
   ncaa_id: "528"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:02
+  conference: Pac10
+  <<: *DEFAULTS
 teams_226: 
-  updated_at: 2008-10-09 15:56:25
   ncaa_name: Humboldt State University
-  ranking: "0.0"
-  id: "226"
   ncaa_id: "291"
   conference_id: "82"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_036: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Austin College
-  ranking: "4.5"
-  id: "36"
   ncaa_id: "953"
   conference_id: "68"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_273: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Lenoir-Rhyne College
-  ranking: "4.0"
-  id: "273"
   ncaa_id: "1170"
   conference_id: "40"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_083: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Carnegie Mellon University
-  ranking: "4.81052631578947"
-  id: "83"
   ncaa_id: "119"
   conference_id: "70"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_607: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Wilmington College (Ohio)
-  ranking: "2.34"
-  id: "607"
   ncaa_id: "1461"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_464: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Simpson College
-  ranking: "5.12790697674419"
-  id: "464"
   ncaa_id: "641"
   conference_id: "53"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_417: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Otterbein College
-  ranking: "9.75773195876289"
-  id: "417"
   ncaa_id: "531"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_227: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Huntingdon College
-  ranking: "9.52941176470588"
-  id: "227"
   ncaa_id: "1130"
   conference_id: "80"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_037: 
-  updated_at: 2008-10-09 15:56:05
   ncaa_name: Austin Peay State University
-  ranking: "0.0"
-  id: "37"
   ncaa_id: "43"
-  conference_id: "22"
-  created_at: 2008-10-06 00:42:01
+  conference: OVC
+  <<: *DEFAULTS
 teams_274: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Lewis & Clark College
-  ranking: "2.25"
-  id: "274"
   ncaa_id: "22235"
   conference_id: "63"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_084: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Carroll University (Wisconsin)
-  ranking: "5.94"
-  id: "84"
   ncaa_id: "120"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_608: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Wingate University
-  ranking: "11.0064724919094"
-  id: "608"
   ncaa_id: "1462"
   conference_id: "40"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_465: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Slippery Rock University of Pennsylvania
-  ranking: "5.69540229885057"
-  id: "465"
   ncaa_id: "643"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_418: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Ouachita Baptist University
-  ranking: "3.8"
-  id: "418"
   ncaa_id: "1289"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_228: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Husson College
-  ranking: "6.02666666666667"
-  id: "228"
   ncaa_id: "1133"
   conference_id: "78"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_038: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Averett University
-  ranking: "1.89893617021277"
-  id: "38"
   ncaa_id: "44"
   conference_id: "69"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_275: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Liberty University
-  ranking: "10.9443609022556"
-  id: "275"
   ncaa_id: "355"
-  conference_id: "14"
-  created_at: 2008-10-06 00:42:02
+  conference: BigSouth
+  <<: *DEFAULTS
 teams_085: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Carson-Newman College
-  ranking: "6.46601941747573"
-  id: "85"
   ncaa_id: "1000"
   conference_id: "40"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_609: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Winona State University
-  ranking: "5.35897435897436"
-  id: "609"
   ncaa_id: "790"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_466: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: University of South Carolina, Columbia
-  ranking: "7.81002331002331"
-  id: "466"
   ncaa_id: "648"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:03
+  conference: SEC
+  <<: *DEFAULTS
 teams_419: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Pace University
-  ranking: "6.58627450980392"
-  id: "419"
   ncaa_id: "533"
   conference_id: "76"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_229: 
-  updated_at: 2008-10-11 01:22:39
-  ncaa_name: University of Idaho
-  ranking: "1.5"
-  id: "229"
   ncaa_id: "295"
-  conference_id: "12"
-  created_at: 2008-10-06 00:42:01
+  conference: WAC
+  <<: *DEFAULTS
 teams_039: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Baldwin-Wallace College
-  ranking: "5.36"
-  id: "39"
   ncaa_id: "46"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_276: 
-  updated_at: 2008-10-11 00:27:24
   ncaa_name: Lincoln University (Missouri)
-  ranking: "0.0"
-  id: "276"
   ncaa_id: "356"
   conference_id: "75"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_086: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Carthage College
-  ranking: "9.37777777777778"
-  id: "86"
   ncaa_id: "121"
   conference_id: "47"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_467: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: South Carolina State University
-  ranking: "8.65942028985507"
-  id: "467"
   ncaa_id: "647"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:03
+  conference: MEAC
+  <<: *DEFAULTS
 teams_277: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Linfield College
-  ranking: "4.59333333333333"
-  id: "277"
   ncaa_id: "1179"
   conference_id: "63"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_087: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Case Western Reserve University
-  ranking: "8.38775510204082"
-  id: "87"
   ncaa_id: "122"
   conference_id: "70"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_468: 
-  updated_at: 2008-10-11 00:27:47
   ncaa_name: University of South Dakota
-  ranking: "0.0"
-  id: "468"
   ncaa_id: "650"
-  conference_id: "73"
-  created_at: 2008-10-06 00:42:03
+  conference: GWC
+  <<: *DEFAULTS
 teams_278: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Livingstone College
-  ranking: "3.0"
-  id: "278"
   ncaa_id: "359"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_088: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Catawba College
-  ranking: "6.65979381443299"
-  id: "88"
   ncaa_id: "1001"
   conference_id: "40"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_469: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: South Dakota State University
-  ranking: "5.93283582089552"
-  id: "469"
   ncaa_id: "649"
-  conference_id: "16"
-  created_at: 2008-10-06 00:42:03
+  conference: MVC
+  <<: *DEFAULTS
 teams_279: 
-  updated_at: 2008-10-11 00:27:24
   ncaa_name: Lock Haven University of Pennsylvania
-  ranking: "0.0"
-  id: "279"
   ncaa_id: "360"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_089: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Catholic University
-  ranking: "6.50526315789474"
-  id: "89"
   ncaa_id: "124"
-  conference_id: "65"
-  created_at: 2008-10-06 00:42:01
+  conference: ODAC
+  <<: *DEFAULTS
 teams_520: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Texas Lutheran University
-  ranking: "4.5"
-  id: "520"
   ncaa_id: "1400"
-  conference_id: "44"
-  created_at: 2008-10-06 00:42:03
+  conference: ASWC
+  <<: *DEFAULTS
 teams_330: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Millsaps College
-  ranking: "9.92857142857143"
-  id: "330"
   ncaa_id: "426"
   conference_id: "68"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_140: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Delaware Valley College
-  ranking: "6.69565217391304"
-  id: "140"
   ncaa_id: "179"
   conference_id: "56"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_521: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Texas Southern University
-  ranking: "3.42592592592593"
-  id: "521"
   ncaa_id: "699"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:03
+  conference: SWAC
+  <<: *DEFAULTS
 teams_331: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Minnesota State University, Mankato
-  ranking: "8.23931623931624"
-  id: "331"
   ncaa_id: "383"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_141: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Delta State University
-  ranking: "9.98627450980392"
-  id: "141"
   ncaa_id: "181"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_522: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Texas State University-San Marcos
-  ranking: "5.9206106870229"
-  id: "522"
   ncaa_id: "670"
-  conference_id: "25"
-  created_at: 2008-10-06 00:42:03
+  conference: Southland
+  <<: *DEFAULTS
 teams_332: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: Minnesota State University Moorhead
-  ranking: "2.09433962264151"
-  id: "332"
   ncaa_id: "1240"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_142: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Denison University
-  ranking: "2.34183673469388"
-  id: "142"
   ncaa_id: "182"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_190: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Gardner-Webb University
-  ranking: "4.02764227642276"
-  id: "190"
   ncaa_id: "1092"
-  conference_id: "14"
-  created_at: 2008-10-06 00:42:01
+  conference: BigSouth
+  <<: *DEFAULTS
 teams_570: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Washington University (Missouri)
-  ranking: "6.42010309278351"
-  id: "570"
   ncaa_id: "755"
   conference_id: "70"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_523: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Texas Tech University
-  ranking: "11.6531468531469"
-  id: "523"
   ncaa_id: "700"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:03
+  conference: B12
+  <<: *DEFAULTS
 teams_333: 
-  updated_at: 2008-10-11 01:22:43
-  ncaa_name: University of Minnesota, Crookston
-  ranking: "2.09345794392523"
-  id: "333"
   ncaa_id: "27854"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_143: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: DePauw University
-  ranking: "6.23417721518987"
-  id: "143"
   ncaa_id: "177"
   conference_id: "68"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_380: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: North Carolina State University
-  ranking: "3.54428904428904"
-  id: "380"
   ncaa_id: "490"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:02
+  conference: ACC
+  <<: *DEFAULTS
 teams_571: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Wayne State University (Michigan)
-  ranking: "7.47701149425287"
-  id: "571"
   ncaa_id: "757"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_524: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: University of Texas at Austin
-  ranking: "12.0472222222222"
-  id: "524"
   ncaa_id: "703"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:03
+  conference: B12
+  <<: *DEFAULTS
 teams_334: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: University of Minnesota Duluth
-  ranking: "12.2931034482759"
-  id: "334"
   ncaa_id: "427"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_144: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Dickinson College
-  ranking: "5.70833333333333"
-  id: "144"
   ncaa_id: "185"
-  conference_id: "45"
-  created_at: 2008-10-06 00:42:01
+  conference: Centennial
+  <<: *DEFAULTS
 teams_381: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: North Carolina Wesleyan College
-  ranking: "3.36666666666667"
-  id: "381"
   ncaa_id: "491"
   conference_id: "69"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_191: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Georgetown University
-  ranking: "2.85091743119266"
-  id: "191"
   ncaa_id: "251"
-  conference_id: "23"
-  created_at: 2008-10-06 00:42:01
+  conference: Patriot
+  <<: *DEFAULTS
 teams_572: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Wayne State College (Nebraska)
-  ranking: "7.98850574712644"
-  id: "572"
   ncaa_id: "1433"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_525: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: University of Texas at El Paso
-  ranking: "5.49861111111111"
-  id: "525"
   ncaa_id: "704"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:03
+  conference: CUSA
+  <<: *DEFAULTS
 teams_335: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: University of Minnesota, Twin Cities
-  ranking: "9.56944444444444"
-  id: "335"
   ncaa_id: "428"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:02
+  conference: b10
+  <<: *DEFAULTS
 teams_145: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Dixie State College of Utah
-  ranking: "1.33333333333333"
-  id: "145"
   ncaa_id: "30095"
   conference_id: "82"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_382: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of North Carolina, Chapel Hill
-  ranking: "9.73239436619718"
-  id: "382"
   ncaa_id: "457"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:02
+  conference: ACC
+  <<: *DEFAULTS
 teams_192: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: University of Georgia
-  ranking: "9.90909090909091"
-  id: "192"
   ncaa_id: "257"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:01
+  conference: SEC
+  <<: *DEFAULTS
 teams_573: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Waynesburg University
-  ranking: "3.0"
-  id: "573"
   ncaa_id: "1434"
-  conference_id: "66"
-  created_at: 2008-10-06 00:42:03
+  conference: Presidents
+  <<: *DEFAULTS
 teams_526: 
-  updated_at: 2008-10-11 00:27:51
   ncaa_name: Thiel College
-  ranking: "0.0"
-  id: "526"
   ncaa_id: "707"
-  conference_id: "66"
-  created_at: 2008-10-06 00:42:03
+  conference: Presidents
+  <<: *DEFAULTS
 teams_336: 
-  updated_at: 2008-10-11 00:27:32
   ncaa_name: University of Minnesota, Morris
-  ranking: "0.0"
-  id: "336"
   ncaa_id: "1226"
   conference_id: "81"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_146: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Drake University
-  ranking: "2.13333333333333"
-  id: "146"
   ncaa_id: "189"
-  conference_id: "74"
-  created_at: 2008-10-06 00:42:01
+  conference: Pioneer
+  <<: *DEFAULTS
 teams_383: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of North Carolina at Pembroke
-  ranking: "8.14320987654321"
-  id: "383"
   ncaa_id: "537"
   conference_id: "77"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_193: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Georgia Institute of Technology
-  ranking: "9.90845070422535"
-  id: "193"
   ncaa_id: "255"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:01
+  conference: ACC
+  <<: *DEFAULTS
 teams_574: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Weber State University
-  ranking: "6.69206349206349"
-  id: "574"
   ncaa_id: "758"
-  conference_id: "13"
-  created_at: 2008-10-06 00:42:03
+  conference: BigSky
+  <<: *DEFAULTS
 teams_527: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Thomas More College
-  ranking: "8.12313432835821"
-  id: "527"
   ncaa_id: "1402"
-  conference_id: "66"
-  created_at: 2008-10-06 00:42:03
+  conference: Presidents
+  <<: *DEFAULTS
 teams_147: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: University of Dubuque
-  ranking: "1.75"
-  id: "147"
   ncaa_id: "192"
   conference_id: "53"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_384: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: North Central College
-  ranking: "8.75252525252525"
-  id: "384"
   ncaa_id: "492"
   conference_id: "47"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_194: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Georgia Southern University
-  ranking: "5.34266666666667"
-  id: "194"
   ncaa_id: "253"
-  conference_id: "24"
-  created_at: 2008-10-06 00:42:01
+  conference: Southern
+  <<: *DEFAULTS
 teams_337: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: University of Mississippi
-  ranking: "6.21830985915493"
-  id: "337"
   ncaa_id: "433"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:02
+  conference: SEC
+  <<: *DEFAULTS
 teams_575: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Wesley College
-  ranking: "6.51111111111111"
-  id: "575"
   ncaa_id: "763"
-  conference_id: "46"
-  created_at: 2008-10-06 00:42:03
+  conference: CACC
+  <<: *DEFAULTS
 teams_528: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Tiffin University
-  ranking: "1.75287356321839"
-  id: "528"
   ncaa_id: "1403"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_148: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Duke University
-  ranking: "7.01818181818182"
-  id: "148"
   ncaa_id: "193"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:01
+  conference: ACC
+  <<: *DEFAULTS
 teams_385: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of North Dakota
-  ranking: "7.6411214953271"
-  id: "385"
   ncaa_id: "494"
-  conference_id: "73"
-  created_at: 2008-10-06 00:42:02
+  conference: GWC
+  <<: *DEFAULTS
 teams_195: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Gettysburg College
-  ranking: "1.98181818181818"
-  id: "195"
   ncaa_id: "258"
-  conference_id: "45"
-  created_at: 2008-10-06 00:42:01
+  conference: Centennial
+  <<: *DEFAULTS
 teams_338: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: Mississippi College
-  ranking: "4.58641975308642"
-  id: "338"
   ncaa_id: "429"
-  conference_id: "44"
-  created_at: 2008-10-06 00:42:02
+  conference: ASWC
+  <<: *DEFAULTS
 teams_576: 
-  updated_at: 2008-10-11 00:27:53
   ncaa_name: Wesleyan University (Connecticut)
-  ranking: "0.0"
-  id: "576"
   ncaa_id: "764"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_529: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: University of Toledo
-  ranking: "2.95972222222222"
-  id: "529"
   ncaa_id: "709"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:03
+  conference: MAC
+  <<: *DEFAULTS
 teams_386: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: North Dakota State University
-  ranking: "6.27619047619048"
-  id: "386"
   ncaa_id: "493"
-  conference_id: "16"
-  created_at: 2008-10-06 00:42:02
+  conference: MVC
+  <<: *DEFAULTS
 teams_196: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Glenville State College
-  ranking: "6.78461538461539"
-  id: "196"
   ncaa_id: "1098"
-  conference_id: "43"
-  created_at: 2008-10-06 00:42:01
+  conference: WVIAC
+  <<: *DEFAULTS
 teams_339: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: Mississippi State University
-  ranking: "2.00138888888889"
-  id: "339"
   ncaa_id: "430"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:02
+  conference: SEC
+  <<: *DEFAULTS
 teams_149: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Duquesne University
-  ranking: "5.25454545454545"
-  id: "149"
   ncaa_id: "194"
-  conference_id: "21"
-  created_at: 2008-10-06 00:42:01
+  conference: Northeast
+  <<: *DEFAULTS
 teams_577: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: University of West Alabama
-  ranking: "2.5"
-  id: "577"
   ncaa_id: "358"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_387: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: North Greenville University
-  ranking: "1.33333333333333"
-  id: "387"
   ncaa_id: "9223"
   conference_id: "77"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_197: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Grambling State University
-  ranking: "7.45081967213115"
-  id: "197"
   ncaa_id: "261"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:01
+  conference: SWAC
+  <<: *DEFAULTS
 teams_578: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: West Chester University of Pennsylvania
-  ranking: "7.76308539944904"
-  id: "578"
   ncaa_id: "765"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_200: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Greenville College
-  ranking: "3.98297872340426"
-  id: "200"
   ncaa_id: "1111"
   conference_id: "80"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_010: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: University at Albany
-  ranking: "5.14146341463415"
-  id: "10"
   ncaa_id: "14"
-  conference_id: "21"
-  created_at: 2008-10-06 00:42:00
+  conference: Northeast
+  <<: *DEFAULTS
 teams_388: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: North Park University
-  ranking: "1.75"
-  id: "388"
   ncaa_id: "496"
   conference_id: "47"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_198: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Grand Valley State University
-  ranking: "12.2953271028037"
-  id: "198"
   ncaa_id: "262"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_579: 
-  updated_at: 2008-10-11 00:27:55
   ncaa_name: University of West Georgia
-  ranking: "0.0"
-  id: "579"
   ncaa_id: "766"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_201: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Grinnell College
-  ranking: "4.0"
-  id: "201"
   ncaa_id: "264"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_011: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Albion College
-  ranking: "3.69375"
-  id: "11"
   ncaa_id: "15"
   conference_id: "55"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_389: 
-  updated_at: 2008-10-11 00:27:34
   ncaa_name: University of North Texas
-  ranking: "0.0"
-  id: "389"
   ncaa_id: "497"
-  conference_id: "11"
-  created_at: 2008-10-06 00:42:02
+  conference: SBC
+  <<: *DEFAULTS
 teams_199: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Greensboro College
-  ranking: "3.18604651162791"
-  id: "199"
   ncaa_id: "263"
   conference_id: "69"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_202: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Grove City College
-  ranking: "4.34328358208955"
-  id: "202"
   ncaa_id: "265"
-  conference_id: "66"
-  created_at: 2008-10-06 00:42:01
+  conference: Presidents
+  <<: *DEFAULTS
 teams_012: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Albright College
-  ranking: "6.625"
-  id: "12"
   ncaa_id: "16"
   conference_id: "56"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_440: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Rice University
-  ranking: "6.29166666666667"
-  id: "440"
   ncaa_id: "574"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:02
+  conference: CUSA
+  <<: *DEFAULTS
 teams_250: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Juniata College
-  ranking: "1.89090909090909"
-  id: "250"
   ncaa_id: "325"
-  conference_id: "45"
-  created_at: 2008-10-06 00:42:02
+  conference: Centennial
+  <<: *DEFAULTS
 teams_060: 
-  updated_at: 2008-10-09 15:56:07
   ncaa_name: Brevard College
-  ranking: "0.0"
-  id: "60"
   ncaa_id: "30094"
   conference_id: "40"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_203: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Guilford College
-  ranking: "3.60344827586207"
-  id: "203"
   ncaa_id: "1112"
-  conference_id: "65"
-  created_at: 2008-10-06 00:42:01
+  conference: ODAC
+  <<: *DEFAULTS
 teams_013: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Alcorn State University
-  ranking: "1.83333333333333"
-  id: "13"
   ncaa_id: "17"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:00
+  conference: SWAC
+  <<: *DEFAULTS
 teams_441: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: University of Richmond
-  ranking: "8.11594202898551"
-  id: "441"
   ncaa_id: "575"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:02
+  conference: Colonial
+  <<: *DEFAULTS
 teams_251: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Kalamazoo College
-  ranking: "1.8"
-  id: "251"
   ncaa_id: "326"
   conference_id: "55"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_061: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bridgewater College (Virginia)
-  ranking: "1.87216494845361"
-  id: "61"
   ncaa_id: "75"
-  conference_id: "65"
-  created_at: 2008-10-06 00:42:01
+  conference: ODAC
+  <<: *DEFAULTS
 teams_204: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Gustavus Adolphus College
-  ranking: "4.81632653061224"
-  id: "204"
   ncaa_id: "266"
   conference_id: "58"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_014: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Alfred University
-  ranking: "7.5469387755102"
-  id: "14"
   ncaa_id: "18"
   conference_id: "49"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_442: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Ripon College
-  ranking: "8.62244897959184"
-  id: "442"
   ncaa_id: "577"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_252: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: University of Kansas
-  ranking: "9.18450704225352"
-  id: "252"
   ncaa_id: "328"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:02
+  conference: B12
+  <<: *DEFAULTS
 teams_062: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bridgewater State College
-  ranking: "4.27551020408163"
-  id: "62"
   ncaa_id: "76"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_205: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hamilton College
-  ranking: "3.66666666666667"
-  id: "205"
   ncaa_id: "267"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_015: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Allegheny College
-  ranking: "4.68367346938776"
-  id: "15"
   ncaa_id: "19"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_490: 
-  updated_at: 2008-10-11 00:27:48
   ncaa_name: Saint Francis University (Pennsylvania)
-  ranking: "0.0"
-  id: "490"
   ncaa_id: "600"
-  conference_id: "21"
-  created_at: 2008-10-06 00:42:03
+  conference: Northeast
+  <<: *DEFAULTS
 teams_443: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Robert Morris University
-  ranking: "1.96806722689076"
-  id: "443"
   ncaa_id: "579"
-  conference_id: "21"
-  created_at: 2008-10-06 00:42:02
+  conference: Northeast
+  <<: *DEFAULTS
 teams_253: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Kansas State University
-  ranking: "6.175"
-  id: "253"
   ncaa_id: "327"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:02
+  conference: B12
+  <<: *DEFAULTS
 teams_063: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Brigham Young University
-  ranking: "11.5694444444444"
-  id: "63"
   ncaa_id: "77"
-  conference_id: "8"
-  created_at: 2008-10-06 00:42:01
+  conference: MWC
+  <<: *DEFAULTS
 teams_206: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hamline University
-  ranking: "2.55526315789474"
-  id: "206"
   ncaa_id: "268"
   conference_id: "58"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_016: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Alma College
-  ranking: "3.57142857142857"
-  id: "16"
   ncaa_id: "21"
   conference_id: "55"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_491: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: St. John Fisher College
-  ranking: "5.375"
-  id: "491"
   ncaa_id: "601"
   conference_id: "49"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_444: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: University of Rochester
-  ranking: "2.84278350515464"
-  id: "444"
   ncaa_id: "581"
   conference_id: "54"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_254: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Kean University
-  ranking: "7.81"
-  id: "254"
   ncaa_id: "329"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_064: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: College of Brockport, State University of New York
-  ranking: "2.32216494845361"
-  id: "64"
   ncaa_id: "78"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_207: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hampden-Sydney College
-  ranking: "9.56701030927835"
-  id: "207"
   ncaa_id: "269"
-  conference_id: "65"
-  created_at: 2008-10-06 00:42:01
+  conference: ODAC
+  <<: *DEFAULTS
 teams_017: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: American International College
-  ranking: "11.21"
-  id: "17"
   ncaa_id: "22"
   conference_id: "76"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_492: 
-  updated_at: 2008-10-11 01:22:48
-  ncaa_name: St. John's University (Minnesota)
-  ranking: "5.26326530612245"
-  id: "492"
+  ncaa_name: St. John\'s University (Minnesota)
   ncaa_id: "602"
   conference_id: "58"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_445: 
-  updated_at: 2008-10-11 00:27:45
   ncaa_name: Rockford College
-  ranking: "0.0"
-  id: "445"
   ncaa_id: "582"
   conference_id: "79"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_255: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Kent State University
-  ranking: "1.57692307692308"
-  id: "255"
   ncaa_id: "331"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:02
+  conference: MAC
+  <<: *DEFAULTS
 teams_065: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Brown University
-  ranking: "6.94551282051282"
-  id: "65"
   ncaa_id: "80"
-  conference_id: "18"
-  created_at: 2008-10-06 00:42:01
+  conference: IvyGroup
+  <<: *DEFAULTS
 teams_208: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hampton University
-  ranking: "9.58888888888889"
-  id: "208"
   ncaa_id: "270"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:01
+  conference: MEAC
+  <<: *DEFAULTS
 teams_018: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Amherst College
-  ranking: "6.97916666666667"
-  id: "18"
   ncaa_id: "24"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_493: 
-  updated_at: 2008-10-11 01:22:48
-  ncaa_name: Saint Joseph's College (Indiana)
-  ranking: "4.65"
-  id: "493"
+  ncaa_name: Saint Joseph\'s College (Indiana)
   ncaa_id: "604"
   conference_id: "75"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_446: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Rose-Hulman Institute of Technology
-  ranking: "7.71020408163265"
-  id: "446"
   ncaa_id: "585"
   conference_id: "50"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_066: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bryant University
-  ranking: "6.09747899159664"
-  id: "66"
   ncaa_id: "81"
-  conference_id: "72"
-  created_at: 2008-10-06 00:42:01
+  conference: IndFCS
+  <<: *DEFAULTS
 teams_209: 
-  updated_at: 2008-10-09 15:56:23
   ncaa_name: Hanover College
-  ranking: "0.0"
-  id: "209"
   ncaa_id: "1115"
   conference_id: "50"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_019: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Anderson University (Indiana)
-  ranking: "6.0"
-  id: "19"
   ncaa_id: "939"
   conference_id: "50"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_256: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: University of Kentucky
-  ranking: "8.75555555555555"
-  id: "256"
   ncaa_id: "334"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:02
+  conference: SEC
+  <<: *DEFAULTS
 teams_494: 
-  updated_at: 2008-10-11 00:27:48
   ncaa_name: St. Lawrence University
-  ranking: "0.0"
-  id: "494"
   ncaa_id: "607"
   conference_id: "54"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_447: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Rowan University
-  ranking: "7.61"
-  id: "447"
   ncaa_id: "259"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_067: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bucknell University
-  ranking: "8.08613445378151"
-  id: "67"
   ncaa_id: "83"
-  conference_id: "23"
-  created_at: 2008-10-06 00:42:01
+  conference: Patriot
+  <<: *DEFAULTS
 teams_257: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Kentucky State University
-  ranking: "5.30909090909091"
-  id: "257"
   ncaa_id: "332"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_495: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: St. Norbert College
-  ranking: "8.36"
-  id: "495"
   ncaa_id: "614"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_448: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Rutgers, State Univ of New Jersey, New Brunswick
-  ranking: "1.95172413793103"
-  id: "448"
   ncaa_id: "587"
-  conference_id: "4"
-  created_at: 2008-10-06 00:42:03
+  conference: BigEast
+  <<: *DEFAULTS
 teams_258: 
-  updated_at: 2008-10-09 15:56:28
   ncaa_name: Kentucky Wesleyan College
-  ranking: "0.0"
-  id: "258"
   ncaa_id: "333"
   conference_id: "75"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_068: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Buena Vista University
-  ranking: "7.84770114942529"
-  id: "68"
   ncaa_id: "84"
   conference_id: "53"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_496: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: St. Olaf College
-  ranking: "5.57731958762887"
-  id: "496"
   ncaa_id: "615"
   conference_id: "58"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_449: 
-  updated_at: 2008-10-11 01:22:47
-  ncaa_name: Sacred Heart University
-  ranking: "10.4974789915966"
-  id: "449"
   ncaa_id: "590"
-  conference_id: "21"
-  created_at: 2008-10-06 00:42:03
+  conference: Northeast
+  <<: *DEFAULTS
 teams_259: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Kenyon College
-  ranking: "1.8"
-  id: "259"
   ncaa_id: "335"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_069: 
-  updated_at: 2008-10-09 15:56:08
   ncaa_name: Buffalo State College
-  ranking: "0.0"
-  id: "69"
   ncaa_id: "85"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_497: 
-  updated_at: 2008-10-11 01:22:48
-  ncaa_name: St. Paul's College
-  ranking: "7.07567567567568"
-  id: "497"
+  ncaa_name: St. Paul\'s College
   ncaa_id: "616"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_500: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Stanford University
-  ranking: "6.37931034482759"
-  id: "500"
   ncaa_id: "674"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:03
+  conference: Pac10
+  <<: *DEFAULTS
 teams_498: 
-  updated_at: 2008-10-11 00:27:48
-  ncaa_name: St. Peter's College
-  ranking: "0.0"
-  id: "498"
+  ncaa_name: St. Peter\'s College
   ncaa_id: "617"
-  conference_id: 
-  created_at: 2008-10-06 00:42:03
+  conference_id:
+    <<: *DEFAULTS
 teams_310: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: McDaniel College
-  ranking: "2.52777777777778"
-  id: "310"
   ncaa_id: "773"
-  conference_id: "45"
-  created_at: 2008-10-06 00:42:02
+  conference: Centennial
+  <<: *DEFAULTS
 teams_120: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Colorado School of Mines
-  ranking: "6.3"
-  id: "120"
   ncaa_id: "155"
   conference_id: "39"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_501: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Stephen F. Austin State University
-  ranking: "2.9936974789916"
-  id: "501"
   ncaa_id: "676"
-  conference_id: "25"
-  created_at: 2008-10-06 00:42:03
+  conference: Southland
+  <<: *DEFAULTS
 teams_499: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: University of St. Thomas (Minnesota)
-  ranking: "7.17708333333333"
-  id: "499"
   ncaa_id: "620"
   conference_id: "58"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_311: 
-  updated_at: 2008-10-11 00:27:25
   ncaa_name: McMurry University
-  ranking: "0.0"
-  id: "311"
   ncaa_id: "8530"
-  conference_id: "44"
-  created_at: 2008-10-06 00:42:02
+  conference: ASWC
+  <<: *DEFAULTS
 teams_121: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Colorado State University
-  ranking: "6.71048951048951"
-  id: "121"
   ncaa_id: "156"
-  conference_id: "8"
-  created_at: 2008-10-06 00:42:01
+  conference: MWC
+  <<: *DEFAULTS
 teams_502: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Stillman College
-  ranking: "2.0952380952381"
-  id: "502"
   ncaa_id: "680"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_312: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: McNeese State University
-  ranking: "7.02083333333333"
-  id: "312"
   ncaa_id: "402"
-  conference_id: "25"
-  created_at: 2008-10-06 00:42:02
+  conference: Southland
+  <<: *DEFAULTS
 teams_122: 
-  updated_at: 2008-10-09 15:56:14
   ncaa_name: Columbia University-Barnard College
-  ranking: "0.0"
-  id: "122"
   ncaa_id: "158"
-  conference_id: "18"
-  created_at: 2008-10-06 00:42:01
+  conference: IvyGroup
+  <<: *DEFAULTS
 teams_550: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Utah State University
-  ranking: "2.46206896551724"
-  id: "550"
   ncaa_id: "731"
-  conference_id: "12"
-  created_at: 2008-10-06 00:42:03
+  conference: WAC
+  <<: *DEFAULTS
 teams_503: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Stonehill College
-  ranking: "1.99230769230769"
-  id: "503"
   ncaa_id: "682"
   conference_id: "76"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_360: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Murray State University
-  ranking: "2.6"
-  id: "360"
   ncaa_id: "454"
-  conference_id: "22"
-  created_at: 2008-10-06 00:42:02
+  conference: OVC
+  <<: *DEFAULTS
 teams_170: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Fayetteville State University
-  ranking: "9.44523809523809"
-  id: "170"
   ncaa_id: "223"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_313: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: University of Memphis
-  ranking: "5.79787234042553"
-  id: "313"
   ncaa_id: "404"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:02
+  conference: CUSA
+  <<: *DEFAULTS
 teams_123: 
-  updated_at: 2008-10-09 15:56:14
   ncaa_name: Concord University
-  ranking: "0.0"
-  id: "123"
   ncaa_id: "1028"
-  conference_id: "43"
-  created_at: 2008-10-06 00:42:01
+  conference: WVIAC
+  <<: *DEFAULTS
 teams_551: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Utica College
-  ranking: "2.84677419354839"
-  id: "551"
   ncaa_id: "733"
   conference_id: "49"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_504: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Stony Brook University
-  ranking: "2.064"
-  id: "504"
   ncaa_id: "683"
-  conference_id: "14"
-  created_at: 2008-10-06 00:42:03
+  conference: BigSouth
+  <<: *DEFAULTS
 teams_361: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Muskingum College
-  ranking: "4.5"
-  id: "361"
   ncaa_id: "455"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_171: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Ferris State University
-  ranking: "7.97126436781609"
-  id: "171"
   ncaa_id: "224"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_314: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Menlo College
-  ranking: "1.47865168539326"
-  id: "314"
   ncaa_id: "405"
   conference_id: "63"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_124: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Concordia College, Moorhead
-  ranking: "7.10486891385768"
-  id: "124"
   ncaa_id: "161"
   conference_id: "58"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_552: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Valdosta State University
-  ranking: "8.7843137254902"
-  id: "552"
   ncaa_id: "734"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_505: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Sul Ross State University
-  ranking: "3.0"
-  id: "505"
   ncaa_id: "1390"
-  conference_id: "44"
-  created_at: 2008-10-06 00:42:03
+  conference: ASWC
+  <<: *DEFAULTS
 teams_362: 
-  updated_at: 2008-10-11 00:27:32
   ncaa_name: Nebraska Wesleyan University
-  ranking: "0.0"
-  id: "362"
   ncaa_id: "462"
   conference_id: "83"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_172: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Ferrum College
-  ranking: "7.53735632183908"
-  id: "172"
   ncaa_id: "225"
   conference_id: "69"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_315: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Mercyhurst College
-  ranking: "7.3728813559322"
-  id: "315"
   ncaa_id: "408"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_125: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Concordia University Chicago
-  ranking: "1.82216494845361"
-  id: "125"
   ncaa_id: "160"
   conference_id: "79"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_553: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Valparaiso University
-  ranking: "3.61392405063291"
-  id: "553"
   ncaa_id: "735"
-  conference_id: "74"
-  created_at: 2008-10-06 00:42:03
+  conference: Pioneer
+  <<: *DEFAULTS
 teams_506: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Susquehanna University
-  ranking: "3.45773195876289"
-  id: "506"
   ncaa_id: "685"
   conference_id: "54"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_173: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: University of Findlay
-  ranking: "2.09433962264151"
-  id: "173"
   ncaa_id: "1079"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_316: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Merrimack College
-  ranking: "6.49"
-  id: "316"
   ncaa_id: "410"
   conference_id: "76"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_126: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Concordia University (Wisconsin)
-  ranking: "2.25"
-  id: "126"
   ncaa_id: "1036"
   conference_id: "79"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_363: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of Nebraska at Kearney
-  ranking: "4.74343434343434"
-  id: "363"
   ncaa_id: "1156"
   conference_id: "39"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_554: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Vanderbilt University
-  ranking: "13.1597222222222"
-  id: "554"
   ncaa_id: "736"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:03
+  conference: SEC
+  <<: *DEFAULTS
 teams_507: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Syracuse University
-  ranking: "1.95172413793103"
-  id: "507"
   ncaa_id: "688"
-  conference_id: "4"
-  created_at: 2008-10-06 00:42:03
+  conference: BigEast
+  <<: *DEFAULTS
 teams_174: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Fitchburg State College
-  ranking: "2.07272727272727"
-  id: "174"
   ncaa_id: "227"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_317: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Mesa State College
-  ranking: "7.96598639455782"
-  id: "317"
   ncaa_id: "11416"
   conference_id: "39"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_127: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Concordia University, St. Paul
-  ranking: "4.69906542056075"
-  id: "127"
   ncaa_id: "9081"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_364: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of Nebraska, Lincoln
-  ranking: "6.78472222222222"
-  id: "364"
   ncaa_id: "463"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:02
+  conference: B12
+  <<: *DEFAULTS
 teams_555: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Villanova University
-  ranking: "9.45079365079365"
-  id: "555"
   ncaa_id: "739"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:03
+  conference: Colonial
+  <<: *DEFAULTS
 teams_508: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Tarleton State University
-  ranking: "9.43478260869565"
-  id: "508"
   ncaa_id: "1395"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_318: 
-  updated_at: 2008-10-11 00:27:25
   ncaa_name: Methodist University
-  ranking: "0.0"
-  id: "318"
   ncaa_id: "412"
   conference_id: "69"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_128: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: University of Connecticut
-  ranking: "9.90459770114943"
-  id: "128"
   ncaa_id: "164"
-  conference_id: "4"
-  created_at: 2008-10-06 00:42:01
+  conference: BigEast
+  <<: *DEFAULTS
 teams_365: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of Nebraska at Omaha
-  ranking: "6.63551401869159"
-  id: "365"
   ncaa_id: "464"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_175: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: University of Florida
-  ranking: "10.1763888888889"
-  id: "175"
   ncaa_id: "235"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:01
+  conference: SEC
+  <<: *DEFAULTS
 teams_556: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: University of Virginia
-  ranking: "4.80416666666667"
-  id: "556"
   ncaa_id: "746"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:03
+  conference: ACC
+  <<: *DEFAULTS
 teams_509: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Temple University
-  ranking: "4.47916666666667"
-  id: "509"
   ncaa_id: "690"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:03
+  conference: MAC
+  <<: *DEFAULTS
 teams_319: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: University of Miami (Florida)
-  ranking: "4.48671328671329"
-  id: "319"
   ncaa_id: "415"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:02
+  conference: ACC
+  <<: *DEFAULTS
 teams_129: 
-  updated_at: 2008-10-09 15:56:15
   ncaa_name: Cornell College
-  ranking: "0.0"
-  id: "129"
   ncaa_id: "166"
   conference_id: "53"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_366: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of Nevada, Las Vegas
-  ranking: "5.69444444444444"
-  id: "366"
   ncaa_id: "465"
-  conference_id: "8"
-  created_at: 2008-10-06 00:42:02
+  conference: MWC
+  <<: *DEFAULTS
 teams_176: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Florida A&M University
-  ranking: "7.16204379562044"
-  id: "176"
   ncaa_id: "228"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:01
+  conference: MEAC
+  <<: *DEFAULTS
 teams_557: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Virginia Military Institute
-  ranking: "3.464"
-  id: "557"
   ncaa_id: "741"
-  conference_id: "14"
-  created_at: 2008-10-06 00:42:03
+  conference: BigSouth
+  <<: *DEFAULTS
 teams_367: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of Nevada
-  ranking: "7.52777777777778"
-  id: "367"
   ncaa_id: "466"
-  conference_id: "12"
-  created_at: 2008-10-06 00:42:02
+  conference: WAC
+  <<: *DEFAULTS
 teams_177: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Florida Atlantic University
-  ranking: "2.0625"
-  id: "177"
   ncaa_id: "229"
-  conference_id: "11"
-  created_at: 2008-10-06 00:42:01
+  conference: SBC
+  <<: *DEFAULTS
 teams_558: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Virginia Polytechnic Institute & State University
-  ranking: "10.7430555555556"
-  id: "558"
   ncaa_id: "742"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:03
+  conference: ACC
+  <<: *DEFAULTS
 teams_368: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of New Hampshire
-  ranking: "11.6594488188976"
-  id: "368"
   ncaa_id: "469"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:02
+  conference: Colonial
+  <<: *DEFAULTS
 teams_178: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Florida International University
-  ranking: "5.29722222222222"
-  id: "178"
   ncaa_id: "231"
-  conference_id: "11"
-  created_at: 2008-10-06 00:42:01
+  conference: SBC
+  <<: *DEFAULTS
 teams_559: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Virginia State University
-  ranking: "3.57429718875502"
-  id: "559"
   ncaa_id: "743"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_369: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: The College of New Jersey
-  ranking: "5.0"
-  id: "369"
   ncaa_id: "712"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_179: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Florida State University
-  ranking: "9.24366197183099"
-  id: "179"
   ncaa_id: "234"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:01
+  conference: ACC
+  <<: *DEFAULTS
 teams_610: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Winston-Salem State University
-  ranking: "2.28943089430894"
-  id: "610"
   ncaa_id: "791"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:03
+  conference: MEAC
+  <<: *DEFAULTS
 teams_420: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Pacific Lutheran University
-  ranking: "3.77510040160643"
-  id: "420"
   ncaa_id: "1297"
   conference_id: "63"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_230: 
-  updated_at: 2008-10-09 15:56:25
-  ncaa_name: Idaho State University
-  ranking: "0.0"
-  id: "230"
   ncaa_id: "294"
-  conference_id: "13"
-  created_at: 2008-10-06 00:42:01
+  conference: BigSky
+  <<: *DEFAULTS
 teams_040: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Ball State University
-  ranking: "12.8402777777778"
-  id: "40"
   ncaa_id: "47"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:01
+  conference: MAC
+  <<: *DEFAULTS
 teams_611: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Wisconsin Lutheran College
-  ranking: "5.58974358974359"
-  id: "611"
   ncaa_id: "8911"
   conference_id: "79"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_421: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: University of Pennsylvania
-  ranking: "3.66666666666667"
-  id: "421"
   ncaa_id: "540"
-  conference_id: "18"
-  created_at: 2008-10-06 00:42:02
+  conference: IvyGroup
+  <<: *DEFAULTS
 teams_231: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Illinois College
-  ranking: "3.67"
-  id: "231"
   ncaa_id: "297"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_041: 
-  updated_at: 2008-10-09 15:56:06
   ncaa_name: Bates College
-  ranking: "0.0"
-  id: "41"
   ncaa_id: "50"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_612: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: University of Wisconsin, Eau Claire
-  ranking: "5.42083333333333"
-  id: "612"
   ncaa_id: "793"
   conference_id: "71"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_422: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Pennsylvania State University
-  ranking: "12.125"
-  id: "422"
   ncaa_id: "539"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:02
+  conference: b10
+  <<: *DEFAULTS
 teams_090: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of Central Arkansas
-  ranking: "7.21129032258064"
-  id: "90"
   ncaa_id: "1004"
-  conference_id: "25"
-  created_at: 2008-10-06 00:42:01
+  conference: Southland
+  <<: *DEFAULTS
 teams_232: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Illinois State University
-  ranking: "6.10236220472441"
-  id: "232"
   ncaa_id: "299"
-  conference_id: "16"
-  created_at: 2008-10-06 00:42:01
+  conference: MVC
+  <<: *DEFAULTS
 teams_042: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Baylor University
-  ranking: "4.03448275862069"
-  id: "42"
   ncaa_id: "51"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:01
+  conference: B12
+  <<: *DEFAULTS
 teams_613: 
-  updated_at: 2008-10-11 00:27:58
-  ncaa_name: University of Wisconsin, La Crosse
-  ranking: "0.0"
-  id: "613"
   ncaa_id: "795"
   conference_id: "71"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_470: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: University of South Florida
-  ranking: "10.1107226107226"
-  id: "470"
   ncaa_id: "651"
-  conference_id: "4"
-  created_at: 2008-10-06 00:42:03
+  conference: BigEast
+  <<: *DEFAULTS
 teams_423: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Pittsburg State University
-  ranking: "9.96581196581197"
-  id: "423"
   ncaa_id: "1314"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_280: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Loras College
-  ranking: "7.64175257731959"
-  id: "280"
   ncaa_id: "364"
   conference_id: "53"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_091: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Central College (Iowa)
-  ranking: "4.27835051546392"
-  id: "91"
   ncaa_id: "126"
   conference_id: "53"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_233: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Illinois Wesleyan University
-  ranking: "6.66414141414141"
-  id: "233"
   ncaa_id: "300"
   conference_id: "47"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_043: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Becker College
-  ranking: "4.59154929577465"
-  id: "43"
   ncaa_id: "26107"
   conference_id: "78"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_614: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: University of Wisconsin, Madison
-  ranking: "7.16760563380282"
-  id: "614"
   ncaa_id: "796"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:03
+  conference: b10
+  <<: *DEFAULTS
 teams_471: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: University of the South
-  ranking: "3.43076923076923"
-  id: "471"
   ncaa_id: "652"
-  conference_id: 
-  created_at: 2008-10-06 00:42:03
+  conference_id:
+    <<: *DEFAULTS
 teams_424: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: University of Pittsburgh
-  ranking: "10.3931034482759"
-  id: "424"
   ncaa_id: "545"
-  conference_id: "4"
-  created_at: 2008-10-06 00:42:02
+  conference: BigEast
+  <<: *DEFAULTS
 teams_281: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: University of Louisiana at Lafayette
-  ranking: "4.925"
-  id: "281"
   ncaa_id: "671"
-  conference_id: "11"
-  created_at: 2008-10-06 00:42:02
+  conference: SBC
+  <<: *DEFAULTS
 teams_234: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: University of Illinois, Champaign
-  ranking: "7.05833333333333"
-  id: "234"
   ncaa_id: "301"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:01
+  conference: b10
+  <<: *DEFAULTS
 teams_044: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Beloit College
-  ranking: "5.56161616161616"
-  id: "44"
   ncaa_id: "53"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_615: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: University of Wisconsin, Oshkosh
-  ranking: "4.05555555555556"
-  id: "615"
   ncaa_id: "798"
   conference_id: "71"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_472: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Southeast Missouri State University
-  ranking: "3.30200501253133"
-  id: "472"
   ncaa_id: "654"
-  conference_id: "22"
-  created_at: 2008-10-06 00:42:03
+  conference: OVC
+  <<: *DEFAULTS
 teams_425: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Plymouth State University
-  ranking: "7.90515463917526"
-  id: "425"
   ncaa_id: "548"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_092: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Central Connecticut State University
-  ranking: "8.57983193277311"
-  id: "92"
   ncaa_id: "127"
-  conference_id: "21"
-  created_at: 2008-10-06 00:42:01
+  conference: Northeast
+  <<: *DEFAULTS
 teams_235: 
-  updated_at: 2008-10-09 15:56:26
   ncaa_name: Indiana State University
-  ranking: "0.0"
-  id: "235"
   ncaa_id: "305"
-  conference_id: "16"
-  created_at: 2008-10-06 00:42:01
+  conference: MVC
+  <<: *DEFAULTS
 teams_045: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bemidji State University
-  ranking: "2.09345794392523"
-  id: "45"
   ncaa_id: "54"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_282: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: University of Louisiana at Monroe
-  ranking: "1.94583333333333"
-  id: "282"
   ncaa_id: "498"
-  conference_id: "11"
-  created_at: 2008-10-06 00:42:02
+  conference: SBC
+  <<: *DEFAULTS
 teams_616: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: University of Wisconsin, Platteville
-  ranking: "6.00833333333333"
-  id: "616"
   ncaa_id: "800"
   conference_id: "71"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_473: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Southeastern Louisiana University
-  ranking: "5.17948717948718"
-  id: "473"
   ncaa_id: "655"
-  conference_id: "25"
-  created_at: 2008-10-06 00:42:03
+  conference: Southland
+  <<: *DEFAULTS
 teams_426: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Pomona-Pitzer Colleges
-  ranking: "3.11111111111111"
-  id: "426"
   ncaa_id: "549"
   conference_id: "67"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_093: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of Central Florida
-  ranking: "4.58888888888889"
-  id: "93"
   ncaa_id: "128"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:01
+  conference: CUSA
+  <<: *DEFAULTS
 teams_236: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Indiana University of Pennsylvania
-  ranking: "9.20740740740741"
-  id: "236"
   ncaa_id: "307"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_046: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Benedict College
-  ranking: "5.48405797101449"
-  id: "46"
   ncaa_id: "55"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_283: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Louisiana College
-  ranking: "2.41869918699187"
-  id: "283"
   ncaa_id: "1182"
-  conference_id: "44"
-  created_at: 2008-10-06 00:42:02
+  conference: ASWC
+  <<: *DEFAULTS
 teams_617: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: University of Wisconsin, River Falls
-  ranking: "4.65909090909091"
-  id: "617"
   ncaa_id: "801"
   conference_id: "71"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_474: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Southeastern Oklahoma State University
-  ranking: "3.41954022988506"
-  id: "474"
   ncaa_id: "1371"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_427: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Portland State University
-  ranking: "4.0047619047619"
-  id: "427"
   ncaa_id: "550"
-  conference_id: "13"
-  created_at: 2008-10-06 00:42:02
+  conference: BigSky
+  <<: *DEFAULTS
 teams_237: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Indiana University, Bloomington
-  ranking: "4.03076923076923"
-  id: "237"
   ncaa_id: "306"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:01
+  conference: b10
+  <<: *DEFAULTS
 teams_047: 
-  updated_at: 2008-10-09 15:56:06
   ncaa_name: Benedictine University (Illinois)
-  ranking: "0.0"
-  id: "47"
   ncaa_id: "296"
   conference_id: "79"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_284: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Louisiana State University
-  ranking: "11.8333333333333"
-  id: "284"
   ncaa_id: "365"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:02
+  conference: SEC
+  <<: *DEFAULTS
 teams_094: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Central Michigan University
-  ranking: "7.35416666666667"
-  id: "94"
   ncaa_id: "129"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:01
+  conference: MAC
+  <<: *DEFAULTS
 teams_618: 
-  updated_at: 2008-10-11 00:27:58
   ncaa_name: University of Wisconsin, Stevens Point
-  ranking: "0.0"
-  id: "618"
   ncaa_id: "802"
   conference_id: "71"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_475: 
-  updated_at: 2008-10-11 00:27:48
   ncaa_name: Southern Arkansas University
-  ranking: "0.0"
-  id: "475"
   ncaa_id: "1376"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_428: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Prairie View A&M University
-  ranking: "9.44444444444444"
-  id: "428"
   ncaa_id: "553"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:02
+  conference: SWAC
+  <<: *DEFAULTS
 teams_238: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: University of Indianapolis
-  ranking: "5.72271386430678"
-  id: "238"
   ncaa_id: "309"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_048: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bentley College
-  ranking: "4.83630952380952"
-  id: "48"
   ncaa_id: "56"
   conference_id: "76"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_285: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Louisiana Tech University
-  ranking: "5.01206896551724"
-  id: "285"
   ncaa_id: "366"
-  conference_id: "12"
-  created_at: 2008-10-06 00:42:02
+  conference: WAC
+  <<: *DEFAULTS
 teams_095: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of Central Missouri
-  ranking: "9.46153846153846"
-  id: "95"
   ncaa_id: "130"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_619: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: University of Wisconsin, Stout
-  ranking: "6.95416666666667"
-  id: "619"
   ncaa_id: "803"
   conference_id: "71"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_476: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: University of Southern California
-  ranking: "9.3551724137931"
-  id: "476"
   ncaa_id: "657"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:03
+  conference: Pac10
+  <<: *DEFAULTS
 teams_429: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Presbyterian College
-  ranking: "3.0559796437659"
-  id: "429"
   ncaa_id: "1320"
-  conference_id: "14"
-  created_at: 2008-10-06 00:42:02
+  conference: BigSouth
+  <<: *DEFAULTS
 teams_239: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Iona College
-  ranking: "5.57894736842105"
-  id: "239"
   ncaa_id: "310"
-  conference_id: "72"
-  created_at: 2008-10-06 00:42:01
+  conference: IndFCS
+  <<: *DEFAULTS
 teams_049: 
-  updated_at: 2008-10-09 15:56:06
   ncaa_name: Bethany College (West Virginia)
-  ranking: "0.0"
-  id: "49"
   ncaa_id: "59"
-  conference_id: "66"
-  created_at: 2008-10-06 00:42:01
+  conference: Presidents
+  <<: *DEFAULTS
 teams_286: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: University of Louisville
-  ranking: "5.10416666666667"
-  id: "286"
   ncaa_id: "367"
-  conference_id: "4"
-  created_at: 2008-10-06 00:42:02
+  conference: BigEast
+  <<: *DEFAULTS
 teams_096: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of Central Oklahoma
-  ranking: "3.7719298245614"
-  id: "96"
   ncaa_id: "1009"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_477: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Southern Connecticut State University
-  ranking: "7.26601941747573"
-  id: "477"
   ncaa_id: "658"
   conference_id: "76"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_287: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Luther College
-  ranking: "4.76136363636364"
-  id: "287"
   ncaa_id: "372"
   conference_id: "53"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_097: 
-  updated_at: 2008-10-09 15:56:11
   ncaa_name: Central State University
-  ranking: "0.0"
-  id: "97"
   ncaa_id: "30049"
   conference_id: "75"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_478: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Southern Illinois University at Carbondale
-  ranking: "5.6"
-  id: "478"
   ncaa_id: "659"
-  conference_id: "16"
-  created_at: 2008-10-06 00:42:03
+  conference: MVC
+  <<: *DEFAULTS
 teams_100: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Chadron State College
-  ranking: "9.48"
-  id: "100"
   ncaa_id: "1012"
   conference_id: "39"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_288: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Lycoming College
-  ranking: "6.66414141414141"
-  id: "288"
   ncaa_id: "373"
   conference_id: "56"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_098: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Central Washington University
-  ranking: "7.59666666666667"
-  id: "98"
   ncaa_id: "1010"
   conference_id: "81"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_479: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Southern Methodist University
-  ranking: "1.69444444444444"
-  id: "479"
   ncaa_id: "663"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:03
+  conference: CUSA
+  <<: *DEFAULTS
 teams_101: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Chapman University
-  ranking: "5.52845528455285"
-  id: "101"
   ncaa_id: "134"
   conference_id: "78"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_289: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Macalester College
-  ranking: "2.89333333333333"
-  id: "289"
   ncaa_id: "376"
   conference_id: "78"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_099: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Centre College
-  ranking: "5.23037974683544"
-  id: "99"
   ncaa_id: "132"
   conference_id: "68"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_102: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of Charleston (West Virginia)
-  ranking: "7.47524752475248"
-  id: "102"
   ncaa_id: "1013"
-  conference_id: "43"
-  created_at: 2008-10-06 00:42:01
+  conference: WVIAC
+  <<: *DEFAULTS
 teams_530: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Towson University
-  ranking: "3.15942028985507"
-  id: "530"
   ncaa_id: "711"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:03
+  conference: Colonial
+  <<: *DEFAULTS
 teams_340: 
-  updated_at: 2008-10-11 00:27:32
   ncaa_name: Mississippi Valley State University
-  ranking: "0.0"
-  id: "340"
   ncaa_id: "432"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:02
+  conference: SWAC
+  <<: *DEFAULTS
 teams_150: 
-  updated_at: 2008-10-09 15:56:17
   ncaa_name: Earlham College
-  ranking: "0.0"
-  id: "150"
   ncaa_id: "195"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_103: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Charleston Southern University
-  ranking: "4.02131147540984"
-  id: "103"
   ncaa_id: "48"
-  conference_id: "14"
-  created_at: 2008-10-06 00:42:01
+  conference: BigSouth
+  <<: *DEFAULTS
 teams_531: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Trine University
-  ranking: "9.17977528089888"
-  id: "531"
   ncaa_id: "30037"
   conference_id: "55"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_341: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: Missouri University of Science and Technology
-  ranking: "5.29545454545454"
-  id: "341"
   ncaa_id: "435"
   conference_id: "75"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_151: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: East Carolina University
-  ranking: "7.96388888888889"
-  id: "151"
   ncaa_id: "196"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:01
+  conference: CUSA
+  <<: *DEFAULTS
 teams_104: 
-  updated_at: 2008-10-09 15:56:12
   ncaa_name: Cheyney University of Pennsylvania
-  ranking: "0.0"
-  id: "104"
   ncaa_id: "135"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_532: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Trinity College (Connecticut)
-  ranking: "10.8177083333333"
-  id: "532"
   ncaa_id: "713"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_342: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: Missouri Southern State University
-  ranking: "4.42592592592593"
-  id: "342"
   ncaa_id: "9012"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_152: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: East Central University
-  ranking: "1.66666666666667"
-  id: "152"
   ncaa_id: "8965"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_105: 
-  updated_at: 2008-10-09 15:56:12
   ncaa_name: University of Chicago
-  ranking: "0.0"
-  id: "105"
   ncaa_id: "137"
   conference_id: "70"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_580: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: West Liberty State College
-  ranking: "7.11372549019608"
-  id: "580"
   ncaa_id: "1438"
-  conference_id: "43"
-  created_at: 2008-10-06 00:42:03
+  conference: WVIAC
+  <<: *DEFAULTS
 teams_533: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Trinity University (Texas)
-  ranking: "9.275"
-  id: "533"
   ncaa_id: "715"
   conference_id: "68"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_343: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: Missouri State University
-  ranking: "2.8996062992126"
-  id: "343"
   ncaa_id: "669"
-  conference_id: "16"
-  created_at: 2008-10-06 00:42:02
+  conference: MVC
+  <<: *DEFAULTS
 teams_153: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: East Stroudsburg University of Pennsylvania
-  ranking: "8.3728813559322"
-  id: "153"
   ncaa_id: "197"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_106: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Chowan University
-  ranking: "1.33333333333333"
-  id: "106"
   ncaa_id: "8875"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_390: 
-  updated_at: 2008-10-11 00:27:34
   ncaa_name: Northeastern State University
-  ranking: "0.0"
-  id: "390"
   ncaa_id: "12810"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_581: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: West Texas A&M University
-  ranking: "12.247619047619"
-  id: "581"
   ncaa_id: "767"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_534: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Troy University
-  ranking: "5.97916666666667"
-  id: "534"
   ncaa_id: "716"
-  conference_id: "11"
-  created_at: 2008-10-06 00:42:03
+  conference: SBC
+  <<: *DEFAULTS
 teams_344: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: Missouri Western State University
-  ranking: "3.50282485875706"
-  id: "344"
   ncaa_id: "9013"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_154: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: East Texas Baptist University
-  ranking: "7.62349397590361"
-  id: "154"
   ncaa_id: "1062"
-  conference_id: "44"
-  created_at: 2008-10-06 00:42:01
+  conference: ASWC
+  <<: *DEFAULTS
 teams_107: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Christopher Newport University
-  ranking: "6.77380952380952"
-  id: "107"
   ncaa_id: "139"
   conference_id: "69"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_391: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northeastern University
-  ranking: "4.65714285714286"
-  id: "391"
   ncaa_id: "500"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:02
+  conference: Colonial
+  <<: *DEFAULTS
 teams_582: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: West Virginia State University
-  ranking: "11.0736842105263"
-  id: "582"
   ncaa_id: "1439"
-  conference_id: "43"
-  created_at: 2008-10-06 00:42:03
+  conference: WVIAC
+  <<: *DEFAULTS
 teams_535: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Truman State University
-  ranking: "6.37383177570093"
-  id: "535"
   ncaa_id: "499"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_345: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: University of Missouri, Columbia
-  ranking: "11.9652777777778"
-  id: "345"
   ncaa_id: "434"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:02
+  conference: B12
+  <<: *DEFAULTS
 teams_155: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Eastern Illinois University
-  ranking: "4.17647058823529"
-  id: "155"
   ncaa_id: "201"
-  conference_id: "22"
-  created_at: 2008-10-06 00:42:01
+  conference: OVC
+  <<: *DEFAULTS
 teams_108: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of Cincinnati
-  ranking: "9.33717948717949"
-  id: "108"
   ncaa_id: "140"
-  conference_id: "4"
-  created_at: 2008-10-06 00:42:01
+  conference: BigEast
+  <<: *DEFAULTS
 teams_392: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northern Arizona University
-  ranking: "9.06774193548387"
-  id: "392"
   ncaa_id: "501"
-  conference_id: "13"
-  created_at: 2008-10-06 00:42:02
+  conference: BigSky
+  <<: *DEFAULTS
 teams_583: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: West Virginia University
-  ranking: "6.81111111111111"
-  id: "583"
   ncaa_id: "768"
-  conference_id: "4"
-  created_at: 2008-10-06 00:42:03
+  conference: BigEast
+  <<: *DEFAULTS
 teams_536: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Tufts University
-  ranking: "6.0"
-  id: "536"
   ncaa_id: "717"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_346: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: Monmouth College (Illinois)
-  ranking: "9.23"
-  id: "346"
   ncaa_id: "438"
-  conference_id: "21"
-  created_at: 2008-10-06 00:42:02
+  conference: Northeast
+  <<: *DEFAULTS
 teams_156: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Eastern Kentucky University
-  ranking: "5.836"
-  id: "156"
   ncaa_id: "202"
-  conference_id: "22"
-  created_at: 2008-10-06 00:42:01
+  conference: OVC
+  <<: *DEFAULTS
 teams_109: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: The Citadel
-  ranking: "5.26612903225806"
-  id: "109"
   ncaa_id: "141"
-  conference_id: "24"
-  created_at: 2008-10-06 00:42:01
+  conference: Southern
+  <<: *DEFAULTS
 teams_393: 
-  updated_at: 2008-10-11 00:27:34
   ncaa_name: University of Northern Colorado
-  ranking: "0.0"
-  id: "393"
   ncaa_id: "502"
-  conference_id: "13"
-  created_at: 2008-10-06 00:42:02
+  conference: BigSky
+  <<: *DEFAULTS
 teams_584: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: West Virginia Wesleyan College
-  ranking: "1.66666666666667"
-  id: "584"
   ncaa_id: "9630"
-  conference_id: "43"
-  created_at: 2008-10-06 00:42:03
+  conference: WVIAC
+  <<: *DEFAULTS
 teams_537: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Tulane University
-  ranking: "4.525"
-  id: "537"
   ncaa_id: "718"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:03
+  conference: CUSA
+  <<: *DEFAULTS
 teams_347: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: Monmouth University
-  ranking: "5.45934959349594"
-  id: "347"
   ncaa_id: "439"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_157: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Eastern Michigan University
-  ranking: "4.0"
-  id: "157"
   ncaa_id: "204"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:01
+  conference: MAC
+  <<: *DEFAULTS
 teams_394: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northern Illinois University
-  ranking: "4.75972222222222"
-  id: "394"
   ncaa_id: "503"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:02
+  conference: MAC
+  <<: *DEFAULTS
 teams_585: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Western Carolina University
-  ranking: "2.32698412698413"
-  id: "585"
   ncaa_id: "769"
-  conference_id: "24"
-  created_at: 2008-10-06 00:42:03
+  conference: Southern
+  <<: *DEFAULTS
 teams_538: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: University of Tulsa
-  ranking: "12.1847222222222"
-  id: "538"
   ncaa_id: "719"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:03
+  conference: CUSA
+  <<: *DEFAULTS
 teams_348: 
-  updated_at: 2008-10-11 01:22:43
   ncaa_name: University of Montana
-  ranking: "8.10225563909774"
-  id: "348"
   ncaa_id: "441"
-  conference_id: "13"
-  created_at: 2008-10-06 00:42:02
+  conference: BigSky
+  <<: *DEFAULTS
 teams_158: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Eastern New Mexico University
-  ranking: "2.0"
-  id: "158"
   ncaa_id: "206"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_395: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: University of Northern Iowa
-  ranking: "6.05190839694656"
-  id: "395"
   ncaa_id: "504"
-  conference_id: "16"
-  created_at: 2008-10-06 00:42:02
+  conference: MVC
+  <<: *DEFAULTS
 teams_586: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Western Connecticut State University
-  ranking: "5.0"
-  id: "586"
   ncaa_id: "770"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_539: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Tusculum College
-  ranking: "6.54"
-  id: "539"
   ncaa_id: "12830"
   conference_id: "40"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_349: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Montana State University-Bozeman
-  ranking: "6.09090909090909"
-  id: "349"
   ncaa_id: "440"
-  conference_id: "13"
-  created_at: 2008-10-06 00:42:02
+  conference: BigSky
+  <<: *DEFAULTS
 teams_159: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Eastern Washington University
-  ranking: "3.848"
-  id: "159"
   ncaa_id: "207"
-  conference_id: "13"
-  created_at: 2008-10-06 00:42:01
+  conference: BigSky
+  <<: *DEFAULTS
 teams_396: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northern Michigan University
-  ranking: "2.09433962264151"
-  id: "396"
   ncaa_id: "506"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_587: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Western Illinois University
-  ranking: "5.78803418803419"
-  id: "587"
   ncaa_id: "771"
-  conference_id: "16"
-  created_at: 2008-10-06 00:42:03
+  conference: MVC
+  <<: *DEFAULTS
 teams_397: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northern State University
-  ranking: "2.08547008547009"
-  id: "397"
   ncaa_id: "1266"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_588: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Western Kentucky University
-  ranking: "3.65727699530516"
-  id: "588"
   ncaa_id: "772"
-  conference_id: "6"
-  created_at: 2008-10-06 00:42:03
+  conference: Ind
+  <<: *DEFAULTS
 teams_400: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northwestern State University
-  ranking: "5.66923076923077"
-  id: "400"
   ncaa_id: "508"
-  conference_id: "25"
-  created_at: 2008-10-06 00:42:02
+  conference: Southland
+  <<: *DEFAULTS
 teams_210: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hardin-Simmons University
-  ranking: "7.58202247191011"
-  id: "210"
   ncaa_id: "271"
-  conference_id: "44"
-  created_at: 2008-10-06 00:42:01
+  conference: ASWC
+  <<: *DEFAULTS
 teams_020: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Angelo State University
-  ranking: "5.50724637681159"
-  id: "20"
   ncaa_id: "25"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_398: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northwest Missouri State University
-  ranking: "10.304347826087"
-  id: "398"
   ncaa_id: "507"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_589: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Western Michigan University
-  ranking: "10.455710955711"
-  id: "589"
   ncaa_id: "774"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:03
+  conference: MAC
+  <<: *DEFAULTS
 teams_401: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northwestern University
-  ranking: "11.6853146853147"
-  id: "401"
   ncaa_id: "509"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:02
+  conference: b10
+  <<: *DEFAULTS
 teams_211: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Harding University
-  ranking: "3.42424242424242"
-  id: "211"
   ncaa_id: "1116"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_021: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Appalachian State University
-  ranking: "6.15074626865672"
-  id: "21"
   ncaa_id: "27"
-  conference_id: "24"
-  created_at: 2008-10-06 00:42:00
+  conference: Southern
+  <<: *DEFAULTS
 teams_399: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northwestern College
-  ranking: "7.98125"
-  id: "399"
   ncaa_id: "30031"
   conference_id: "81"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_402: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Northwood University (Michigan)
-  ranking: "2.09345794392523"
-  id: "402"
   ncaa_id: "510"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_212: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hartwick College
-  ranking: "6.28735632183908"
-  id: "212"
   ncaa_id: "273"
   conference_id: "49"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_022: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: University of Arizona
-  ranking: "9.51034482758621"
-  id: "22"
   ncaa_id: "29"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:00
+  conference: Pac10
+  <<: *DEFAULTS
 teams_450: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Saginaw Valley State University
-  ranking: "7.36603773584906"
-  id: "450"
   ncaa_id: "591"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_403: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Norwich University
-  ranking: "3.79148936170213"
-  id: "403"
   ncaa_id: "511"
   conference_id: "49"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_260: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: King's College (Pennsylvania)
-  ranking: "1.93181818181818"
-  id: "260"
   ncaa_id: "336"
   conference_id: "56"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_070: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: University at Buffalo, the State University of New
-  ranking: "4.76111111111111"
-  id: "70"
   ncaa_id: "86"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:01
+  conference: MAC
+  <<: *DEFAULTS
 teams_213: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Harvard University
-  ranking: "7.09385113268608"
-  id: "213"
   ncaa_id: "275"
-  conference_id: "18"
-  created_at: 2008-10-06 00:42:01
+  conference: IvyGroup
+  <<: *DEFAULTS
 teams_023: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Arizona State University
-  ranking: "4.74861111111111"
-  id: "23"
   ncaa_id: "28"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:00
+  conference: Pac10
+  <<: *DEFAULTS
 teams_451: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Salisbury University
-  ranking: "6.09604519774011"
-  id: "451"
   ncaa_id: "622"
-  conference_id: "46"
-  created_at: 2008-10-06 00:42:03
+  conference: CACC
+  <<: *DEFAULTS
 teams_404: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: University of Notre Dame
-  ranking: "8.60416666666667"
-  id: "404"
   ncaa_id: "513"
-  conference_id: "6"
-  created_at: 2008-10-06 00:42:02
+  conference: Ind
+  <<: *DEFAULTS
 teams_261: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Knox College
-  ranking: "1.58181818181818"
-  id: "261"
   ncaa_id: "337"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_071: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Butler University
-  ranking: "7.96875"
-  id: "71"
   ncaa_id: "87"
-  conference_id: "74"
-  created_at: 2008-10-06 00:42:01
+  conference: Pioneer
+  <<: *DEFAULTS
 teams_214: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: University of Hawaii, Manoa
-  ranking: "5.02675159235669"
-  id: "214"
   ncaa_id: "277"
-  conference_id: "12"
-  created_at: 2008-10-06 00:42:01
+  conference: WAC
+  <<: *DEFAULTS
 teams_024: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Arkansas State University
-  ranking: "6.98028169014084"
-  id: "24"
   ncaa_id: "30"
-  conference_id: "11"
-  created_at: 2008-10-06 00:42:00
+  conference: SBC
+  <<: *DEFAULTS
 teams_452: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Salve Regina University
-  ranking: "4.90909090909091"
-  id: "452"
   ncaa_id: "623"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_405: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Oberlin College
-  ranking: "2.25"
-  id: "405"
   ncaa_id: "515"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_262: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Kutztown University of Pennsylvania
-  ranking: "3.33333333333333"
-  id: "262"
   ncaa_id: "339"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_072: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: C.W. Post Campus/Long Island University
-  ranking: "2.0"
-  id: "72"
   ncaa_id: "362"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_215: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Heidelberg College
-  ranking: "1.91326530612245"
-  id: "215"
   ncaa_id: "278"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_025: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Arkansas Tech University
-  ranking: "6.50961538461539"
-  id: "25"
   ncaa_id: "947"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_453: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Sam Houston State University
-  ranking: "6.59459459459459"
-  id: "453"
   ncaa_id: "624"
-  conference_id: "25"
-  created_at: 2008-10-06 00:42:03
+  conference: Southland
+  <<: *DEFAULTS
 teams_406: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Occidental College
-  ranking: "8.50617283950617"
-  id: "406"
   ncaa_id: "516"
   conference_id: "67"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_263: 
-  updated_at: 2008-10-11 00:27:24
   ncaa_name: La Salle University
-  ranking: "0.0"
-  id: "263"
   ncaa_id: "340"
-  conference_id: 
-  created_at: 2008-10-06 00:42:02
+  conference_id:
+    <<: *DEFAULTS
 teams_073: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: California Lutheran University
-  ranking: "6.88888888888889"
-  id: "73"
   ncaa_id: "105"
   conference_id: "67"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_216: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Henderson State University
-  ranking: "5.5"
-  id: "216"
   ncaa_id: "1123"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_026: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: University of Arkansas, Fayetteville
-  ranking: "4.05874125874126"
-  id: "26"
   ncaa_id: "31"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:00
+  conference: SEC
+  <<: *DEFAULTS
 teams_454: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Samford University
-  ranking: "5.34734513274336"
-  id: "454"
   ncaa_id: "625"
-  conference_id: "24"
-  created_at: 2008-10-06 00:42:03
+  conference: Southern
+  <<: *DEFAULTS
 teams_407: 
-  updated_at: 2008-10-11 00:27:35
   ncaa_name: Ohio Northern University
-  ranking: "0.0"
-  id: "407"
   ncaa_id: "517"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_264: 
-  updated_at: 2008-10-11 00:27:24
   ncaa_name: University of La Verne
-  ranking: "0.0"
-  id: "264"
   ncaa_id: "341"
   conference_id: "67"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_074: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: California Polytechnic State University
-  ranking: "8.80973451327434"
-  id: "74"
   ncaa_id: "90"
-  conference_id: "73"
-  created_at: 2008-10-06 00:42:01
+  conference: GWC
+  <<: *DEFAULTS
 teams_217: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hillsdale College
-  ranking: "7.31014492753623"
-  id: "217"
   ncaa_id: "280"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_027: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: University of Arkansas, Monticello
-  ranking: "7.79166666666667"
-  id: "27"
   ncaa_id: "8411"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_455: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: University of San Diego
-  ranking: "11.2857142857143"
-  id: "455"
   ncaa_id: "627"
-  conference_id: "74"
-  created_at: 2008-10-06 00:42:03
+  conference: Pioneer
+  <<: *DEFAULTS
 teams_408: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: The Ohio State University
-  ranking: "10.1111111111111"
-  id: "408"
   ncaa_id: "518"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:02
+  conference: b10
+  <<: *DEFAULTS
 teams_265: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Lafayette College
-  ranking: "8.02966101694915"
-  id: "265"
   ncaa_id: "342"
-  conference_id: "23"
-  created_at: 2008-10-06 00:42:02
+  conference: Patriot
+  <<: *DEFAULTS
 teams_075: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: California State University, Fresno
-  ranking: "7.51034482758621"
-  id: "75"
   ncaa_id: "96"
-  conference_id: "12"
-  created_at: 2008-10-06 00:42:01
+  conference: WAC
+  <<: *DEFAULTS
 teams_218: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hiram College
-  ranking: "3.76666666666667"
-  id: "218"
   ncaa_id: "281"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_028: 
-  updated_at: 2008-10-09 15:56:04
   ncaa_name: University of Arkansas, Pine Bluff
-  ranking: "0.0"
-  id: "28"
   ncaa_id: "2678"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:00
+  conference: SWAC
+  <<: *DEFAULTS
 teams_456: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: San Diego State University
-  ranking: "2.06338028169014"
-  id: "456"
   ncaa_id: "626"
-  conference_id: "8"
-  created_at: 2008-10-06 00:42:03
+  conference: MWC
+  <<: *DEFAULTS
 teams_409: 
-  updated_at: 2008-10-11 01:22:45
   ncaa_name: Ohio University
-  ranking: "1.61888111888112"
-  id: "409"
   ncaa_id: "519"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:02
+  conference: MAC
+  <<: *DEFAULTS
 teams_266: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: La Grange College
-  ranking: "10.780701754386"
-  id: "266"
   ncaa_id: "1162"
   conference_id: "80"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_076: 
-  updated_at: 2008-10-11 01:22:34
-  ncaa_name: California State University, Sacramento
-  ranking: "3.74516129032258"
-  id: "76"
   ncaa_id: "102"
-  conference_id: "13"
-  created_at: 2008-10-06 00:42:01
+  conference: BigSky
+  <<: *DEFAULTS
 teams_219: 
-  updated_at: 2008-10-11 01:22:39
   ncaa_name: Hobart College
-  ranking: "9.72727272727273"
-  id: "219"
   ncaa_id: "282"
   conference_id: "54"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_029: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Ashland University
-  ranking: "8.44444444444444"
-  id: "29"
   ncaa_id: "35"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_457: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: San Jose State University
-  ranking: "6.95172413793103"
-  id: "457"
   ncaa_id: "630"
-  conference_id: "12"
-  created_at: 2008-10-06 00:42:03
+  conference: WAC
+  <<: *DEFAULTS
 teams_267: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Lake Forest College
-  ranking: "1.98"
-  id: "267"
   ncaa_id: "344"
   conference_id: "57"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_077: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: California University of Pennsylvania
-  ranking: "10.2444444444444"
-  id: "77"
   ncaa_id: "106"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_458: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Savannah State University
-  ranking: "5.55376344086022"
-  id: "458"
   ncaa_id: "632"
-  conference_id: "72"
-  created_at: 2008-10-06 00:42:03
+  conference: IndFCS
+  <<: *DEFAULTS
 teams_268: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Lakeland College
-  ranking: "2.25"
-  id: "268"
   ncaa_id: "1164"
   conference_id: "79"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_078: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of California, Berkeley
-  ranking: "10.0068965517241"
-  id: "78"
   ncaa_id: "107"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:01
+  conference: Pac10
+  <<: *DEFAULTS
 teams_459: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Seton Hill University
-  ranking: "11.489247311828"
-  id: "459"
   ncaa_id: "30063"
-  conference_id: "43"
-  created_at: 2008-10-06 00:42:03
+  conference: WVIAC
+  <<: *DEFAULTS
 teams_269: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Lane College
-  ranking: "2.69411764705882"
-  id: "269"
   ncaa_id: "347"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_079: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: University of California, Davis
-  ranking: "3.13636363636364"
-  id: "79"
   ncaa_id: "108"
-  conference_id: "73"
-  created_at: 2008-10-06 00:42:01
+  conference: GWC
+  <<: *DEFAULTS
 teams_510: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Tennessee State University
-  ranking: "10.0925925925926"
-  id: "510"
   ncaa_id: "691"
-  conference_id: "22"
-  created_at: 2008-10-06 00:42:03
+  conference: OVC
+  <<: *DEFAULTS
 teams_320: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Miami University (Ohio)
-  ranking: "1.93194444444444"
-  id: "320"
   ncaa_id: "414"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:02
+  conference: MAC
+  <<: *DEFAULTS
 teams_130: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Cornell University
-  ranking: "11.5631067961165"
-  id: "130"
   ncaa_id: "167"
-  conference_id: "18"
-  created_at: 2008-10-06 00:42:01
+  conference: IvyGroup
+  <<: *DEFAULTS
 teams_511: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Tennessee Technological University
-  ranking: "4.704"
-  id: "511"
   ncaa_id: "692"
-  conference_id: "22"
-  created_at: 2008-10-06 00:42:03
+  conference: OVC
+  <<: *DEFAULTS
 teams_321: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: University of Michigan
-  ranking: "4.68472222222222"
-  id: "321"
   ncaa_id: "418"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:02
+  conference: b10
+  <<: *DEFAULTS
 teams_131: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: State University College at Cortland
-  ranking: "11.08"
-  id: "131"
   ncaa_id: "168"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_512: 
-  updated_at: 2008-10-11 00:27:51
   ncaa_name: University of Tennessee at Chattanooga
-  ranking: "0.0"
-  id: "512"
   ncaa_id: "693"
-  conference_id: "24"
-  created_at: 2008-10-06 00:42:03
+  conference: Southern
+  <<: *DEFAULTS
 teams_322: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Michigan State University
-  ranking: "10.1736111111111"
-  id: "322"
   ncaa_id: "416"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:02
+  conference: b10
+  <<: *DEFAULTS
 teams_132: 
-  updated_at: 2008-10-11 01:22:36
-  ncaa_name: Crown College (MN)
-  ranking: "1.75"
-  id: "132"
   ncaa_id: "30035"
   conference_id: "81"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_560: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Virginia Union University
-  ranking: "8.88837209302326"
-  id: "560"
   ncaa_id: "744"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_513: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: University of Tennessee, Knoxville
-  ranking: "4.22222222222222"
-  id: "513"
   ncaa_id: "694"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:03
+  conference: SEC
+  <<: *DEFAULTS
 teams_370: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of New Mexico
-  ranking: "6.26388888888889"
-  id: "370"
   ncaa_id: "473"
-  conference_id: "8"
-  created_at: 2008-10-06 00:42:02
+  conference: MWC
+  <<: *DEFAULTS
 teams_180: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Fordham University
-  ranking: "5.13445378151261"
-  id: "180"
   ncaa_id: "236"
-  conference_id: "23"
-  created_at: 2008-10-06 00:42:01
+  conference: Patriot
+  <<: *DEFAULTS
 teams_323: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Michigan Technological University
-  ranking: "7.73563218390805"
-  id: "323"
   ncaa_id: "417"
   conference_id: "30"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_133: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Curry College
-  ranking: "10.3656565656566"
-  id: "133"
   ncaa_id: "170"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_561: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Wabash College
-  ranking: "9.87113402061856"
-  id: "561"
   ncaa_id: "747"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_514: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: University of Tennessee at Martin
-  ranking: "6.61304347826087"
-  id: "514"
   ncaa_id: "695"
-  conference_id: "22"
-  created_at: 2008-10-06 00:42:03
+  conference: OVC
+  <<: *DEFAULTS
 teams_371: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: New Mexico Highlands University
-  ranking: "2.12"
-  id: "371"
   ncaa_id: "8577"
   conference_id: "39"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_181: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Fort Hays State University
-  ranking: "2.35344827586207"
-  id: "181"
   ncaa_id: "9011"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_324: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Middle Tennessee State University
-  ranking: "4.76805555555556"
-  id: "324"
   ncaa_id: "419"
-  conference_id: "11"
-  created_at: 2008-10-06 00:42:02
+  conference: SBC
+  <<: *DEFAULTS
 teams_134: 
-  updated_at: 2008-10-09 15:56:15
   ncaa_name: Dartmouth College
-  ranking: "0.0"
-  id: "134"
   ncaa_id: "172"
-  conference_id: "18"
-  created_at: 2008-10-06 00:42:01
+  conference: IvyGroup
+  <<: *DEFAULTS
 teams_562: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Wagner College
-  ranking: "4.30252100840336"
-  id: "562"
   ncaa_id: "748"
-  conference_id: "21"
-  created_at: 2008-10-06 00:42:03
+  conference: Northeast
+  <<: *DEFAULTS
 teams_515: 
-  updated_at: 2008-10-11 00:27:51
   ncaa_name: Test Institution
-  ranking: "0.0"
-  id: "515"
   ncaa_id: "11361"
-  conference_id: 
-  created_at: 2008-10-06 00:42:03
+  conference_id:
+    <<: *DEFAULTS
 teams_372: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: New Mexico State University
-  ranking: "5.5051724137931"
-  id: "372"
   ncaa_id: "472"
-  conference_id: "12"
-  created_at: 2008-10-06 00:42:02
+  conference: WAC
+  <<: *DEFAULTS
 teams_182: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Fort Lewis College
-  ranking: "4.24175824175824"
-  id: "182"
   ncaa_id: "1083"
   conference_id: "39"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_325: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Middlebury College
-  ranking: "6.453125"
-  id: "325"
   ncaa_id: "420"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_135: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Davidson College
-  ranking: "5.57291666666667"
-  id: "135"
   ncaa_id: "173"
-  conference_id: "74"
-  created_at: 2008-10-06 00:42:01
+  conference: Pioneer
+  <<: *DEFAULTS
 teams_563: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Wake Forest University
-  ranking: "9.66666666666667"
-  id: "563"
   ncaa_id: "749"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:03
+  conference: ACC
+  <<: *DEFAULTS
 teams_516: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Texas A&M University, College Station
-  ranking: "4.71944444444444"
-  id: "516"
   ncaa_id: "697"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:03
+  conference: B12
+  <<: *DEFAULTS
 teams_373: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Newberry College
-  ranking: "6.28686868686869"
-  id: "373"
   ncaa_id: "1257"
   conference_id: "40"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_183: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Fort Valley State University
-  ranking: "4.5"
-  id: "183"
   ncaa_id: "237"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_326: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Midwestern State University
-  ranking: "8.75471698113208"
-  id: "326"
   ncaa_id: "1222"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_136: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: University of Dayton
-  ranking: "7.27358490566038"
-  id: "136"
   ncaa_id: "175"
-  conference_id: "74"
-  created_at: 2008-10-06 00:42:01
+  conference: Pioneer
+  <<: *DEFAULTS
 teams_564: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Wartburg College
-  ranking: "5.97731958762887"
-  id: "564"
   ncaa_id: "750"
   conference_id: "53"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_517: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Texas A&M University-Commerce
-  ranking: "5.72585669781931"
-  id: "517"
   ncaa_id: "199"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_374: 
-  updated_at: 2008-10-11 00:27:33
   ncaa_name: Nicholls State University
-  ranking: "0.0"
-  id: "374"
   ncaa_id: "483"
-  conference_id: "25"
-  created_at: 2008-10-06 00:42:02
+  conference: Southland
+  <<: *DEFAULTS
 teams_184: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Framingham State College
-  ranking: "6.00606060606061"
-  id: "184"
   ncaa_id: "238"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_327: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Miles College
-  ranking: "2.29473684210526"
-  id: "327"
   ncaa_id: "422"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_137: 
-  updated_at: 2008-10-09 15:56:15
   ncaa_name: Defiance College
-  ranking: "0.0"
-  id: "137"
   ncaa_id: "1050"
   conference_id: "50"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_565: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Washburn University of Topeka
-  ranking: "7.52564102564103"
-  id: "565"
   ncaa_id: "2814"
   conference_id: "34"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_518: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Texas A&M University-Kingsville
-  ranking: "8.73684210526316"
-  id: "518"
   ncaa_id: "696"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_375: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Nichols College
-  ranking: "4.36363636363636"
-  id: "375"
   ncaa_id: "484"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_185: 
-  updated_at: 2008-10-11 01:22:38
-  ncaa_name: Franklin & Marshall College
-  ranking: "4.33673469387755"
-  id: "185"
   ncaa_id: "239"
-  conference_id: "45"
-  created_at: 2008-10-06 00:42:01
+  conference: Centennial
+  <<: *DEFAULTS
 teams_328: 
-  updated_at: 2008-10-11 00:27:27
   ncaa_name: Millersville University of Pennsylvania
-  ranking: "0.0"
-  id: "328"
   ncaa_id: "423"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_138: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: University of Delaware
-  ranking: "3.88920863309353"
-  id: "138"
   ncaa_id: "180"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:01
+  conference: Colonial
+  <<: *DEFAULTS
 teams_566: 
-  updated_at: 2008-10-11 00:27:53
   ncaa_name: University of Washington
-  ranking: "0.0"
-  id: "566"
   ncaa_id: "756"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:03
+  conference: Pac10
+  <<: *DEFAULTS
 teams_519: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Texas Christian University
-  ranking: "10.1993006993007"
-  id: "519"
   ncaa_id: "698"
-  conference_id: "8"
-  created_at: 2008-10-06 00:42:03
+  conference: MWC
+  <<: *DEFAULTS
 teams_376: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Norfolk State University
-  ranking: "4.08888888888889"
-  id: "376"
   ncaa_id: "485"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:02
+  conference: MEAC
+  <<: *DEFAULTS
 teams_186: 
-  updated_at: 2008-10-11 01:22:38
-  ncaa_name: Franklin College
-  ranking: "10.1821305841924"
-  id: "186"
   ncaa_id: "2694"
   conference_id: "50"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_329: 
-  updated_at: 2008-10-11 01:22:42
   ncaa_name: Millikin University
-  ranking: "4.36363636363636"
-  id: "329"
   ncaa_id: "424"
   conference_id: "47"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_139: 
-  updated_at: 2008-10-11 01:22:36
   ncaa_name: Delaware State University
-  ranking: "3.00984251968504"
-  id: "139"
   ncaa_id: "178"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:01
+  conference: MEAC
+  <<: *DEFAULTS
 teams_567: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Washington and Jefferson College
-  ranking: "9.5"
-  id: "567"
   ncaa_id: "751"
-  conference_id: "66"
-  created_at: 2008-10-06 00:42:03
+  conference: Presidents
+  <<: *DEFAULTS
 teams_377: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: University of North Alabama
-  ranking: "11.7545454545455"
-  id: "377"
   ncaa_id: "487"
   conference_id: "31"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_187: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Frostburg State University
-  ranking: "1.9"
-  id: "187"
   ncaa_id: "243"
-  conference_id: "46"
-  created_at: 2008-10-06 00:42:01
+  conference: CACC
+  <<: *DEFAULTS
 teams_568: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Washington and Lee University
-  ranking: "6.46590909090909"
-  id: "568"
   ncaa_id: "752"
-  conference_id: "65"
-  created_at: 2008-10-06 00:42:03
+  conference: ODAC
+  <<: *DEFAULTS
 teams_378: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: North Carolina A&T State University
-  ranking: "3.24875621890547"
-  id: "378"
   ncaa_id: "488"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:02
+  conference: MEAC
+  <<: *DEFAULTS
 teams_188: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Furman University
-  ranking: "7.02238805970149"
-  id: "188"
   ncaa_id: "244"
-  conference_id: "24"
-  created_at: 2008-10-06 00:42:01
+  conference: Southern
+  <<: *DEFAULTS
 teams_569: 
-  updated_at: 2008-10-11 01:22:50
   ncaa_name: Washington State University
-  ranking: "1.61538461538462"
-  id: "569"
   ncaa_id: "754"
-  conference_id: "9"
-  created_at: 2008-10-06 00:42:03
+  conference: Pac10
+  <<: *DEFAULTS
 teams_001: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Abilene Christian University
-  ranking: "12.0"
-  id: "1"
   ncaa_id: "2"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_379: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: North Carolina Central University
-  ranking: "2.3743119266055"
-  id: "379"
   ncaa_id: "489"
-  conference_id: "72"
-  created_at: 2008-10-06 00:42:02
+  conference: IndFCS
+  <<: *DEFAULTS
 teams_189: 
-  updated_at: 2008-10-11 01:22:38
   ncaa_name: Gannon University
-  ranking: "4.51111111111111"
-  id: "189"
   ncaa_id: "246"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_002: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Adams State College
-  ranking: "2.0"
-  id: "2"
   ncaa_id: "929"
   conference_id: "39"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_620: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: University of Wisconsin, Whitewater
-  ranking: "10.0717299578059"
-  id: "620"
   ncaa_id: "805"
   conference_id: "71"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_430: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Princeton University
-  ranking: "7.42071197411003"
-  id: "430"
   ncaa_id: "554"
-  conference_id: "18"
-  created_at: 2008-10-06 00:42:02
+  conference: IvyGroup
+  <<: *DEFAULTS
 teams_003: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Adrian College
-  ranking: "5.92977528089888"
-  id: "3"
   ncaa_id: "4"
   conference_id: "55"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_240: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: University of Iowa
-  ranking: "5.27083333333333"
-  id: "240"
   ncaa_id: "312"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:01
+  conference: b10
+  <<: *DEFAULTS
 teams_050: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bethel University (Minnesota)
-  ranking: "8.32323232323232"
-  id: "50"
   ncaa_id: "60"
   conference_id: "58"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_621: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Wittenberg University
-  ranking: "7.4520202020202"
-  id: "621"
   ncaa_id: "806"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_431: 
-  updated_at: 2008-10-11 00:27:44
   ncaa_name: Principia College
-  ranking: "0.0"
-  id: "431"
   ncaa_id: "555"
   conference_id: "80"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_004: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: University of Akron
-  ranking: "6.54022988505747"
-  id: "4"
   ncaa_id: "5"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:00
+  conference: MAC
+  <<: *DEFAULTS
 teams_241: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Iowa State University
-  ranking: "4.09166666666667"
-  id: "241"
   ncaa_id: "311"
-  conference_id: "3"
-  created_at: 2008-10-06 00:42:01
+  conference: B12
+  <<: *DEFAULTS
 teams_051: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bethune-Cookman University
-  ranking: "9.05322580645161"
-  id: "51"
   ncaa_id: "61"
-  conference_id: "20"
-  created_at: 2008-10-06 00:42:01
+  conference: MEAC
+  <<: *DEFAULTS
 teams_622: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Wofford College
-  ranking: "8.278"
-  id: "622"
   ncaa_id: "2915"
-  conference_id: "24"
-  created_at: 2008-10-06 00:42:03
+  conference: Southern
+  <<: *DEFAULTS
 teams_432: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: University of Puget Sound
-  ranking: "5.53086419753086"
-  id: "432"
   ncaa_id: "557"
   conference_id: "63"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_005: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Alabama A&M University
-  ranking: "4.2"
-  id: "5"
   ncaa_id: "6"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:00
+  conference: SWAC
+  <<: *DEFAULTS
 teams_242: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Ithaca College
-  ranking: "6.77083333333333"
-  id: "242"
   ncaa_id: "313"
   conference_id: "49"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_052: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Blackburn College
-  ranking: "1.4"
-  id: "52"
   ncaa_id: "64"
   conference_id: "80"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_623: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: College of Wooster
-  ranking: "9.68367346938776"
-  id: "623"
   ncaa_id: "807"
   conference_id: "62"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_480: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: University of Southern Mississippi
-  ranking: "4.79583333333333"
-  id: "480"
   ncaa_id: "664"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:03
+  conference: CUSA
+  <<: *DEFAULTS
 teams_433: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Purdue University
-  ranking: "4.04475524475524"
-  id: "433"
   ncaa_id: "559"
-  conference_id: "1"
-  created_at: 2008-10-06 00:42:02
+  conference: b10
+  <<: *DEFAULTS
 teams_006: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Alabama State University
-  ranking: "2.75"
-  id: "6"
   ncaa_id: "7"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:00
+  conference: SWAC
+  <<: *DEFAULTS
 teams_290: 
-  updated_at: 2008-10-11 00:27:25
   ncaa_name: MacMurray College
-  ranking: "0.0"
-  id: "290"
   ncaa_id: "377"
   conference_id: "80"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_243: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Jackson State University
-  ranking: "1.69836065573771"
-  id: "243"
   ncaa_id: "314"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:02
+  conference: SWAC
+  <<: *DEFAULTS
 teams_053: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bloomsburg University of Pennsylvania
-  ranking: "12.0280112044818"
-  id: "53"
   ncaa_id: "65"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_624: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Worcester Polytechnic Institute
-  ranking: "6.66315789473684"
-  id: "624"
   ncaa_id: "808"
-  conference_id: 
-  created_at: 2008-10-06 00:42:03
+  conference_id:
+    <<: *DEFAULTS
 teams_481: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Southern University, Baton Rouge
-  ranking: "7.55573770491803"
-  id: "481"
   ncaa_id: "665"
-  conference_id: "26"
-  created_at: 2008-10-06 00:42:03
+  conference: SWAC
+  <<: *DEFAULTS
 teams_434: 
-  updated_at: 2008-10-11 00:27:44
   ncaa_name: Quincy University
-  ranking: "0.0"
-  id: "434"
   ncaa_id: "561"
   conference_id: "83"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_007: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: University of Alabama at Birmingham
-  ranking: "1.57692307692308"
-  id: "7"
   ncaa_id: "9"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:00
+  conference: CUSA
+  <<: *DEFAULTS
 teams_291: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Maine Maritime Academy
-  ranking: "6.61237113402062"
-  id: "291"
   ncaa_id: "378"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_244: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Jacksonville State University
-  ranking: "9.28"
-  id: "244"
   ncaa_id: "315"
-  conference_id: "22"
-  created_at: 2008-10-06 00:42:02
+  conference: OVC
+  <<: *DEFAULTS
 teams_054: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bluffton University
-  ranking: "1.84278350515464"
-  id: "54"
   ncaa_id: "987"
   conference_id: "50"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_625: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Worcester State College
-  ranking: "1.8"
-  id: "625"
   ncaa_id: "809"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_482: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Southern Utah University
-  ranking: "5.15426997245179"
-  id: "482"
   ncaa_id: "667"
-  conference_id: "73"
-  created_at: 2008-10-06 00:42:03
+  conference: GWC
+  <<: *DEFAULTS
 teams_435: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Randolph-Macon College
-  ranking: "4.07311827956989"
-  id: "435"
   ncaa_id: "565"
-  conference_id: "65"
-  created_at: 2008-10-06 00:42:02
+  conference: ODAC
+  <<: *DEFAULTS
 teams_008: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: University of Alabama, Tuscaloosa
-  ranking: "13.2291666666667"
-  id: "8"
   ncaa_id: "8"
-  conference_id: "10"
-  created_at: 2008-10-06 00:42:00
+  conference: SEC
+  <<: *DEFAULTS
 teams_292: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: University of Maine, Orono
-  ranking: "3.88776978417266"
-  id: "292"
   ncaa_id: "380"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:02
+  conference: Colonial
+  <<: *DEFAULTS
 teams_245: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Jacksonville University
-  ranking: "3.05208333333333"
-  id: "245"
   ncaa_id: "316"
-  conference_id: "74"
-  created_at: 2008-10-06 00:42:02
+  conference: Pioneer
+  <<: *DEFAULTS
 teams_055: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Boise State University
-  ranking: "11.3775862068966"
-  id: "55"
   ncaa_id: "66"
-  conference_id: "12"
-  created_at: 2008-10-06 00:42:01
+  conference: WAC
+  <<: *DEFAULTS
 teams_626: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: University of Wyoming
-  ranking: "3.43240093240093"
-  id: "626"
   ncaa_id: "811"
-  conference_id: "8"
-  created_at: 2008-10-06 00:42:03
+  conference: MWC
+  <<: *DEFAULTS
 teams_483: 
-  updated_at: 2008-10-11 01:22:47
   ncaa_name: Southwest Baptist University
-  ranking: "3.81978021978022"
-  id: "483"
   ncaa_id: "2755"
   conference_id: "77"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_436: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: University of Redlands
-  ranking: "8.61382113821138"
-  id: "436"
   ncaa_id: "567"
   conference_id: "67"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_009: 
-  updated_at: 2008-10-11 01:22:33
   ncaa_name: Albany State University (Georgia)
-  ranking: "8.62745098039216"
-  id: "9"
   ncaa_id: "13"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:00
+  <<: *DEFAULTS
 teams_293: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Manchester College
-  ranking: "4.09278350515464"
-  id: "293"
   ncaa_id: "1192"
   conference_id: "50"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_246: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: James Madison University
-  ranking: "9.70052083333333"
-  id: "246"
   ncaa_id: "317"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:02
+  conference: Colonial
+  <<: *DEFAULTS
 teams_056: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Boston College
-  ranking: "9.45138888888889"
-  id: "56"
   ncaa_id: "67"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:01
+  conference: ACC
+  <<: *DEFAULTS
 teams_627: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Yale University
-  ranking: "6.23529411764706"
-  id: "627"
   ncaa_id: "813"
-  conference_id: "18"
-  created_at: 2008-10-06 00:42:03
+  conference: IvyGroup
+  <<: *DEFAULTS
 teams_484: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Southwest Minnesota State University
-  ranking: "6.88598130841121"
-  id: "484"
   ncaa_id: "8736"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_437: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Rensselaer Polytechnic Institute
-  ranking: "9.09090909090909"
-  id: "437"
   ncaa_id: "570"
-  conference_id: 
-  created_at: 2008-10-06 00:42:02
+  conference_id:
+    <<: *DEFAULTS
 teams_294: 
-  updated_at: 2008-10-11 00:27:25
   ncaa_name: Mansfield University of Pennsylvania
-  ranking: "0.0"
-  id: "294"
   ncaa_id: "384"
-  conference_id: 
-  created_at: 2008-10-06 00:42:02
+  conference_id:
+    <<: *DEFAULTS
 teams_247: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: John Carroll University
-  ranking: "7.22959183673469"
-  id: "247"
   ncaa_id: "320"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_057: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bowdoin College
-  ranking: "3.28125"
-  id: "57"
   ncaa_id: "69"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_628: 
-  updated_at: 2008-10-11 01:22:51
   ncaa_name: Youngstown State University
-  ranking: "3.38308457711443"
-  id: "628"
   ncaa_id: "817"
-  conference_id: "16"
-  created_at: 2008-10-06 00:42:03
+  conference: MVC
+  <<: *DEFAULTS
 teams_485: 
-  updated_at: 2008-10-11 00:27:48
   ncaa_name: Southwestern Oklahoma State University
-  ranking: "0.0"
-  id: "485"
   ncaa_id: "8744"
   conference_id: "33"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_438: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: University of Rhode Island
-  ranking: "3.03892944038929"
-  id: "438"
   ncaa_id: "572"
-  conference_id: "15"
-  created_at: 2008-10-06 00:42:02
+  conference: Colonial
+  <<: *DEFAULTS
 teams_295: 
-  updated_at: 2008-10-11 00:27:25
   ncaa_name: Maranatha Baptist Bible College
-  ranking: "0.0"
-  id: "295"
   ncaa_id: "1194"
   conference_id: "79"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_248: 
-  updated_at: 2008-10-11 01:22:40
   ncaa_name: Johns Hopkins University
-  ranking: "5.67272727272727"
-  id: "248"
   ncaa_id: "322"
-  conference_id: "45"
-  created_at: 2008-10-06 00:42:02
+  conference: Centennial
+  <<: *DEFAULTS
 teams_058: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bowie State University
-  ranking: "5.66666666666667"
-  id: "58"
   ncaa_id: "70"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_486: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: Springfield College
-  ranking: "2.34473684210526"
-  id: "486"
   ncaa_id: "673"
   conference_id: "49"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_439: 
-  updated_at: 2008-10-11 01:22:46
   ncaa_name: Rhodes College
-  ranking: "2.62447257383966"
-  id: "439"
   ncaa_id: "573"
   conference_id: "68"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_296: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Marietta College
-  ranking: "2.25"
-  id: "296"
   ncaa_id: "385"
   conference_id: "64"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_249: 
-  updated_at: 2008-10-09 15:56:27
   ncaa_name: Johnson C. Smith University
-  ranking: "0.0"
-  id: "249"
   ncaa_id: "323"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_059: 
-  updated_at: 2008-10-11 01:22:34
   ncaa_name: Bowling Green State University
-  ranking: "5.26527777777778"
-  id: "59"
   ncaa_id: "71"
-  conference_id: "7"
-  created_at: 2008-10-06 00:42:01
+  conference: MAC
+  <<: *DEFAULTS
 teams_487: 
-  updated_at: 2008-10-11 00:27:48
   ncaa_name: Saint Anselm College
-  ranking: "0.0"
-  id: "487"
   ncaa_id: "593"
   conference_id: "76"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_297: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Marist College
-  ranking: "1.83333333333333"
-  id: "297"
   ncaa_id: "386"
-  conference_id: "72"
-  created_at: 2008-10-06 00:42:02
+  conference: IndFCS
+  <<: *DEFAULTS
 teams_488: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: St. Augustine's College
-  ranking: "3.76811594202899"
-  id: "488"
   ncaa_id: "594"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_300: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Marshall University
-  ranking: "6.38194444444444"
-  id: "300"
   ncaa_id: "388"
-  conference_id: "5"
-  created_at: 2008-10-06 00:42:02
+  conference: CUSA
+  <<: *DEFAULTS
 teams_110: 
-  updated_at: 2008-10-11 01:22:35
-  ncaa_name: Claremont McKenna-Harvey Mudd-Scripps Colleges
-  ranking: "2.44444444444444"
-  id: "110"
   ncaa_id: "142"
   conference_id: "67"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_298: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: State University of New York Maritime College
-  ranking: "3.04324324324324"
-  id: "298"
   ncaa_id: "478"
   conference_id: "78"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_489: 
-  updated_at: 2008-10-11 01:22:48
   ncaa_name: St. Cloud State University
-  ranking: "7.64957264957265"
-  id: "489"
   ncaa_id: "598"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_301: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Martin Luther College
-  ranking: "7.37068965517241"
-  id: "301"
   ncaa_id: "8597"
   conference_id: "81"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_111: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Clarion University of Pennsylvania
-  ranking: "2.17094017094017"
-  id: "111"
   ncaa_id: "143"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_299: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Mars Hill College
-  ranking: "4.52941176470588"
-  id: "299"
   ncaa_id: "1199"
   conference_id: "40"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_302: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: University of Mary
-  ranking: "3.85632183908046"
-  id: "302"
   ncaa_id: "30075"
   conference_id: "37"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_112: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Clark Atlanta University
-  ranking: "7.79761904761905"
-  id: "112"
   ncaa_id: "144"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_540: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: Tuskegee University
-  ranking: "11.8189655172414"
-  id: "540"
   ncaa_id: "720"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_303: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: University of Mary Hardin-Baylor
-  ranking: "10.4504504504505"
-  id: "303"
   ncaa_id: "1203"
-  conference_id: "44"
-  created_at: 2008-10-06 00:42:02
+  conference: ASWC
+  <<: *DEFAULTS
 teams_113: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Clemson University
-  ranking: "6.6013986013986"
-  id: "113"
   ncaa_id: "147"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:01
+  conference: ACC
+  <<: *DEFAULTS
 teams_350: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Montclair State University
-  ranking: "9.66"
-  id: "350"
   ncaa_id: "442"
   conference_id: "61"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_160: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Edinboro University of Pennsylvania
-  ranking: "10.1880341880342"
-  id: "160"
   ncaa_id: "209"
   conference_id: "38"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_541: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: U.S. Air Force Academy
-  ranking: "7.48951048951049"
-  id: "541"
   ncaa_id: "721"
-  conference_id: "8"
-  created_at: 2008-10-06 00:42:03
+  conference: MWC
+  <<: *DEFAULTS
 teams_304: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: University of Maryland, College Park
-  ranking: "7.97222222222222"
-  id: "304"
   ncaa_id: "392"
-  conference_id: "2"
-  created_at: 2008-10-06 00:42:02
+  conference: ACC
+  <<: *DEFAULTS
 teams_114: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Coastal Carolina University
-  ranking: "5.33333333333333"
-  id: "114"
   ncaa_id: "149"
-  conference_id: "14"
-  created_at: 2008-10-06 00:42:01
+  conference: BigSouth
+  <<: *DEFAULTS
 teams_351: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Moravian College
-  ranking: "7.9979797979798"
-  id: "351"
   ncaa_id: "443"
-  conference_id: "45"
-  created_at: 2008-10-06 00:42:02
+  conference: Centennial
+  <<: *DEFAULTS
 teams_161: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Elizabeth City State University
-  ranking: "5.89803921568627"
-  id: "161"
   ncaa_id: "210"
   conference_id: "29"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_542: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: U.S. Coast Guard Academy
-  ranking: "5.22222222222222"
-  id: "542"
   ncaa_id: "722"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_305: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Maryville College (Tennessee)
-  ranking: "5.93260869565217"
-  id: "305"
   ncaa_id: "396"
   conference_id: "69"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_115: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Coe College
-  ranking: "4.58556701030928"
-  id: "115"
   ncaa_id: "150"
   conference_id: "53"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_352: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Morehead State University
-  ranking: "5.21"
-  id: "352"
   ncaa_id: "444"
-  conference_id: "74"
-  created_at: 2008-10-06 00:42:02
+  conference: Pioneer
+  <<: *DEFAULTS
 teams_162: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Elmhurst College
-  ranking: "5.84183673469388"
-  id: "162"
   ncaa_id: "212"
   conference_id: "47"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_590: 
-  updated_at: 2008-10-11 00:27:58
   ncaa_name: Western New England College
-  ranking: "0.0"
-  id: "590"
   ncaa_id: "775"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_543: 
-  updated_at: 2008-10-11 01:22:49
   ncaa_name: U.S. Merchant Marine Academy
-  ranking: "3.40833333333333"
-  id: "543"
   ncaa_id: "724"
   conference_id: "54"
-  created_at: 2008-10-06 00:42:03
+  <<: *DEFAULTS
 teams_306: 
-  updated_at: 2008-10-11 01:22:41
   ncaa_name: Massachusetts Institute of Technology
-  ranking: "6.31515151515151"
-  id: "306"
   ncaa_id: "398"
   conference_id: "59"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_116: 
-  updated_at: 2008-10-11 01:22:35
   ncaa_name: Colby College
-  ranking: "6.28125"
-  id: "116"
   ncaa_id: "151"
   conference_id: "60"
-  created_at: 2008-10-06 00:42:01
+  <<: *DEFAULTS
 teams_353: 
-  updated_at: 2008-10-11 01:22:44
   ncaa_name: Morehouse College
-  ranking: "7.24660194174757"
-  id: "353"
   ncaa_id: "445"
   conference_id: "41"
-  created_at: 2008-10-06 00:42:02
+  <<: *DEFAULTS
 teams_163: 
-  updated_at: 2008-10-11 01:22:37
   ncaa_name: Elon University
-  ranking: "10.0196078431373"
-  id: "163"
   ncaa_id: "1068"
-  conference_id: "24"
-  created_at: 2008-10-06 00:42:01
+  conference: Southern
+  <<: *DEFAULTS

@@ -1,556 +1,439 @@
 DEFAULTS: &DEFAULTS
+  abbrev: $LABEL
   updated_at: <%= Time.now.to_s(:db) %>
   created_at: <%= Time.now.to_s(:db) %>
 
-conferences_001: 
+B10: 
   name: Big Ten
-  abbrev: B10
-  id: "1"
-  division: d1
+  division: FBS
   <<: *DEFAULTS
 
-conferences_002: 
+ACC: 
   name: Atlantic Coast
-  abbrev: ACC
-  id: "2"
-  division: d1
+  division: FBS
   <<: *DEFAULTS
 
-conferences_003: 
+B12: 
   name: Big 12
-  abbrev: B12
-  id: "3"
-  division: d1
+  division: FBS
   <<: *DEFAULTS
 
-conferences_004: 
+BigEast: 
   name: Big East
-  abbrev: BigEast
-  id: "4"
-  division: d1
+  division: FBS
   <<: *DEFAULTS
 
-conferences_018: 
+CUSA: 
+  name: Conference USA
+  division: FBS
+  <<: *DEFAULTS
+
+IndFBS: 
+  name: Independent
+  division: FBS
+  <<: *DEFAULTS
+
+MAC: 
+  name: Mid-American
+  division: FBS
+  <<: *DEFAULTS
+
+MWC: 
+  name: Mountain West
+  division: FBS
+  <<: *DEFAULTS
+
+Pac10: 
+  name: Pacific-10
+  division: FBS
+  <<: *DEFAULTS
+
+SEC: 
+  name: Southeastern
+  division: FBS
+  <<: *DEFAULTS
+
+SBC: 
+  name: Sun Belt
+  division: FBS
+  <<: *DEFAULTS
+
+WAC: 
+  name: Western Athletic
+  division: FBS
+  <<: *DEFAULTS
+
+BigSky: 
+  name: Big Sky
+  division: FCS
+  <<: *DEFAULTS
+
+IvyGroup: 
   name: Ivy Group
-  abbrev: ""
-  id: "18"
-  division: d1a
+  division: FCS
   <<: *DEFAULTS
 
-conferences_040: 
+MEAC: 
+  name: Mid-Eastern Athletic
+  division: FCS
+  <<: *DEFAULTS
+
+# MAAC: 
+#   name: Metro Atlantic Athletic
+#   id: "19"
+#   division: FCS
+#   <<: *DEFAULTS
+
+Northeast: 
+  name: Northeast
+  division: FCS
+  <<: *DEFAULTS
+
+OVC: 
+  name: Ohio Valley
+  division: FCS
+  <<: *DEFAULTS
+
+Patriot: 
+  name: Patriot League
+  division: FCS
+  <<: *DEFAULTS
+
+Southern: 
+  name: Southern
+  division: FCS
+  <<: *DEFAULTS
+
+Southland: 
+  name: Southland
+  division: FCS
+  <<: *DEFAULTS
+
+IndFCS: 
+  name: D-1AA Independents
+  division: FCS
+  <<: *DEFAULTS
+
+SWAC: 
+  name: Southwestern Athletic
+  division: FCS
+  <<: *DEFAULTS
+
+Pioneer: 
+  name: Pioneer
+  division: FCS
+  <<: *DEFAULTS
+
+GWC: 
+  name: Great West
+  division: FCS
+  <<: *DEFAULTS
+
+BigSouth: 
+  name: Big South
+  division: FCS
+  <<: *DEFAULTS
+
+Colonial: 
+  name: Colonial Athletic
+  division: FCS
+  <<: *DEFAULTS
+
+MVC: 
+  name: Missouri Valley
+  division: FCS
+  <<: *DEFAULTS
+
+ASWC: 
   name: American Southwest
-  abbrev: ""
-  id: "44"
   division: d3
   <<: *DEFAULTS
 
-conferences_039: 
+WVIAC: 
   name: West Virginia Intercollegiate Athletic
-  abbrev: ""
-  id: "43"
   division: d2
   <<: *DEFAULTS
 
-conferences_061: 
+ODAC: 
   name: Old Dominion Athletic
-  abbrev: ""
-  id: "65"
   division: d3
   <<: *DEFAULTS
 
-conferences_020: 
-  name: Mid-Eastern Athletic
-  abbrev: ""
-  id: "20"
-  division: d1a
-  <<: *DEFAULTS
-
-conferences_019: 
-  name: Metro Atlantic Athletic
-  abbrev: ""
-  id: "19"
-  division: d1a
-  <<: *DEFAULTS
-
-conferences_041: 
+Centennial: 
   name: Centennial
-  abbrev: ""
-  id: "45"
   division: d3
   <<: *DEFAULTS
 
-conferences_062: 
-  name: Presidents' Athletic
-  abbrev: ""
-  id: "66"
+Presidents: 
+  name: Presidents\' Athletic
   division: d3
   <<: *DEFAULTS
 
-conferences_021: 
-  name: Northeast
-  abbrev: ""
-  id: "21"
-  division: d1a
-  <<: *DEFAULTS
-
-conferences_042: 
+CACC: 
   name: Central Atlantic Collegiate
-  abbrev: ""
-  id: "46"
-  created_at: 2008-10-07 13:38:33
+  division: d3
   <<: *DEFAULTS
 
 conferences_063: 
   name: Souther California Intercollegiate Athletic
-  abbrev: ""
   id: "67"
   division: d3
   <<: *DEFAULTS
 
-conferences_022: 
-  name: Ohio Valley
-  abbrev: ""
-  id: "22"
-  division: d1a
-  <<: *DEFAULTS
-
 conferences_043: 
   name: College Conference of Illinois & Wisconsin
-  abbrev: ""
   id: "47"
   division: d3
   <<: *DEFAULTS
 
 conferences_064: 
   name: Southern Collegiate Athletic
-  abbrev: ""
   id: "68"
   division: d3
   <<: *DEFAULTS
 
-conferences_023: 
-  name: Patriot League
-  abbrev: ""
-  id: "23"
-  division: d1a
-  <<: *DEFAULTS
-
 conferences_044: 
   name: Eastern College Athletic
-  abbrev: ""
   id: "48"
   division: d3
   <<: *DEFAULTS
 
 conferences_065: 
   name: USA South Athletic
-  abbrev: ""
   id: "69"
   division: d3
   <<: *DEFAULTS
 
-conferences_024: 
-  name: Southern
-  abbrev: ""
-  id: "24"
-  division: d1a
-  <<: *DEFAULTS
-
 conferences_045: 
   name: Empire 8
-  abbrev: ""
   id: "49"
   division: d3
   <<: *DEFAULTS
 
 conferences_066: 
   name: University Athletic
-  abbrev: ""
   id: "70"
   division: d3
   <<: *DEFAULTS
 
 conferences_067: 
   name: Wisconsin Athletic
-  abbrev: ""
   id: "71"
   division: d3
   <<: *DEFAULTS
 
 conferences_046: 
   name: Heartland Collegiate Athletic
-  abbrev: ""
   id: "50"
   division: d3
   <<: *DEFAULTS
 
-conferences_025: 
-  name: Southland
-  abbrev: ""
-  id: "25"
-  division: d1a
-  <<: *DEFAULTS
-
-conferences_068: 
-  name: D-1AA Independents
-  abbrev: 
-  id: "72"
-  division: d1a
-  <<: *DEFAULTS
-
-conferences_005: 
-  name: Conference USA
-  abbrev: CUSA
-  id: "5"
-  division: d1
-  <<: *DEFAULTS
-
-conferences_026: 
-  name: Southwestern Athletic
-  abbrev: ""
-  id: "26"
-  division: d1a
-  <<: *DEFAULTS
-
 conferences_047: 
   name: Illini-Badger Intercollegiate Football
-  abbrev: ""
   id: "51"
   division: d3
   <<: *DEFAULTS
 
-conferences_070: 
-  name: Pioneer
-  abbrev: 
-  id: "74"
-  division: d1a
-  <<: *DEFAULTS
-
-conferences_069: 
-  name: Great West
-  abbrev: 
-  id: "73"
-  division: d1a
-  <<: *DEFAULTS
-
-conferences_006: 
-  name: Independent
-  abbrev: Ind.
-  id: "6"
-  division: d1
-  <<: *DEFAULTS
-
 conferences_027: 
   name: Central Intercollegiate Athletic Association
-  abbrev: ""
   id: "29"
   division: d2
   <<: *DEFAULTS
 
 conferences_048: 
   name: Independent
-  abbrev: ""
   id: "52"
   division: d3
   <<: *DEFAULTS
 
 conferences_071: 
   name: Great Lakes Football
-  abbrev: 
   id: "75"
   division: d2
   <<: *DEFAULTS
 
-conferences_007: 
-  name: Mid-American
-  abbrev: MAC
-  id: "7"
-  division: d1
-  <<: *DEFAULTS
-
 conferences_028: 
   name: Great Lakes Intercollegiate Athletic
-  abbrev: ""
   id: "30"
   division: d2
   <<: *DEFAULTS
 
 conferences_050: 
   name: Liberty League
-  abbrev: ""
   id: "54"
   division: d3
   <<: *DEFAULTS
 
 conferences_049: 
   name: Iowa Intercollegiate Athletic
-  abbrev: ""
   id: "53"
   division: d3
   <<: *DEFAULTS
 
 conferences_072: 
   name: Northeast-10
-  abbrev: 
   id: "76"
   division: d2
   <<: *DEFAULTS
 
-conferences_008: 
-  name: Mountain West
-  abbrev: MWC
-  id: "8"
-  division: d1
-  <<: *DEFAULTS
-
 conferences_030: 
   name: Independent
-  abbrev: ""
   id: "32"
   division: d2
   <<: *DEFAULTS
 
 conferences_029: 
   name: Gulf South
-  abbrev: ""
   id: "31"
   division: d2
   <<: *DEFAULTS
 
 conferences_051: 
   name: Michigan Intercollegiate Athletic Association
-  abbrev: ""
   id: "55"
   division: d3
   <<: *DEFAULTS
 
 conferences_073: 
   name: D-II Independents
-  abbrev: 
   id: "77"
   division: d2
   <<: *DEFAULTS
 
-conferences_010: 
-  name: Southeastern
-  abbrev: SEC
-  id: "10"
-  division: d1
-  <<: *DEFAULTS
-
-conferences_009: 
-  name: Pacific-10
-  abbrev: P10
-  id: "9"
-  division: d1
-  <<: *DEFAULTS
-
 conferences_031: 
   name: Lone Star
-  abbrev: ""
   id: "33"
   division: d2
   <<: *DEFAULTS
 
 conferences_052: 
   name: Middle Atlantic States Collegiate Athletic Corporation
-  abbrev: ""
   id: "56"
   division: d3
   <<: *DEFAULTS
 
 conferences_074: 
   name: D-III Independents
-  abbrev: 
   id: "78"
   division: d3
   <<: *DEFAULTS
 
-conferences_011: 
-  name: Sun Belt
-  abbrev: SBC
-  id: "11"
-  division: d1
-  <<: *DEFAULTS
-
 conferences_032: 
   name: Mid-America Intercollegiate Athletics Association
-  abbrev: ""
   id: "34"
   division: d2
   <<: *DEFAULTS
 
 conferences_053: 
   name: Midwest
-  abbrev: ""
   id: "57"
   division: d3
   <<: *DEFAULTS
 
 conferences_075: 
   name: Northern Athletic
-  abbrev: 
   id: "79"
   division: d3
   <<: *DEFAULTS
 
-conferences_012: 
-  name: Western Athletic
-  abbrev: WAC
-  id: "12"
-  division: d1
-  <<: *DEFAULTS
-
 conferences_033: 
   name: North Central Intercollegiate Athletic
-  abbrev: ""
   id: "36"
   division: d2
   <<: *DEFAULTS
 
 conferences_054: 
   name: Minnesota Intercollegiate Athletic
-  abbrev: ""
   id: "58"
   division: d3
   <<: *DEFAULTS
 
 conferences_076: 
   name: St. Louis Intercollegiate Athletic
-  abbrev: 
   id: "80"
   division: d3
   <<: *DEFAULTS
 
-conferences_013: 
-  name: Big Sky
-  abbrev: ""
-  id: "13"
-  division: d1a
-  <<: *DEFAULTS
-
 conferences_034: 
   name: Northern Sun Intercollegiate
-  abbrev: ""
   id: "37"
   division: d2
   <<: *DEFAULTS
 
 conferences_055: 
   name: New England Football
-  abbrev: ""
   id: "59"
   division: d3
   <<: *DEFAULTS
 
 conferences_077: 
   name: Upper Midwest Athletic
-  abbrev: 
   id: "81"
   division: d3
   <<: *DEFAULTS
 
 conferences_035: 
   name: Pennsylvania State Athletic
-  abbrev: ""
   id: "38"
   division: d2
   <<: *DEFAULTS
 
 conferences_056: 
   name: New England Small College Athletic
-  abbrev: ""
   id: "60"
   division: d3
   <<: *DEFAULTS
 
-conferences_014: 
-  name: Big South
-  abbrev: ""
-  id: "14"
-  division: d1a
-  <<: *DEFAULTS
-
 conferences_078: 
   name: Great Northwest Athletic
-  abbrev: 
   id: "82"
   division: d3
   <<: *DEFAULTS
 
 conferences_057: 
   name: New Jersey Athletic
-  abbrev: ""
   id: "61"
   division: d3
   <<: *DEFAULTS
 
-conferences_015: 
-  name: Colonial Athletic
-  abbrev: ""
-  id: "15"
-  division: d1a
-  <<: *DEFAULTS
-
 conferences_036: 
   name: Rocky Mountain Athletic
-  abbrev: ""
   id: "39"
   division: d2
   <<: *DEFAULTS
 
-conferences_016: 
-  name: Missouri Valley
-  abbrev: Gateway
-  id: "16"
-  division: d1a
-  <<: *DEFAULTS
-
 conferences_037: 
   name: South Atlantic
-  abbrev: ""
   id: "40"
   division: d2
   <<: *DEFAULTS
 
 conferences_058: 
   name: North Coast Athletic
-  abbrev: ""
   id: "62"
   division: d3
   <<: *DEFAULTS
 
-conferences_017: 
-  name: Independent
-  abbrev: ""
-  id: "17"
-  division: d1a
-  <<: *DEFAULTS
-
 conferences_038: 
   name: Southern Intercollegiate Athletic
-  abbrev: ""
   id: "41"
   division: d2
   <<: *DEFAULTS
 
 conferences_060: 
   name: Ohio Athletic
-  abbrev: ""
   id: "64"
   division: d3
   <<: *DEFAULTS
 
 conferences_059: 
   name: Northwest
-  abbrev: ""
   id: "63"
   division: d3
   <<: *DEFAULTS
 
 naia_generic: 
   name: NAIA
-  abbrev: 
   id: "83"
   division: naia
   <<: *DEFAULTS

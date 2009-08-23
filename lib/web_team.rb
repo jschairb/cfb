@@ -1,7 +1,5 @@
-require 'hpricot'
-require 'open-uri'
-
-class WebTeam
+require 'web_data'
+class WebTeam < WebData
 
   attr_accessor :response, :site, :team, :year
 
@@ -15,7 +13,7 @@ class WebTeam
       when "jhowell"
       return "http://www.jhowell.net/cf/scores/#{team}.htm"
     else
-      raise InvalidWebsiteError
+      raise InvalidArgumentError
     end
   end
 
@@ -46,10 +44,6 @@ class WebTeam
   end
 
   private
-  def get_response
-    @response = Hpricot(open(url))
-  end
-
   def parse_table_row(row)
     cell_count = row.children.length
     case cell_count
@@ -67,8 +61,9 @@ class WebTeam
   def parse_game_row(row)
     game_attrs = { }
     i = 0
-    %w(date home opponent result team_score opponent_score).each do |attribute|
+    %w(date home opponent result score_team score_opponent).each do |attribute|
       game_attrs[attribute.intern] = row.children[i].inner_html
+      puts "still need more work to on calculating things"
       i+=1
     end
     return game_attrs

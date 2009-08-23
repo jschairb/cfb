@@ -24,7 +24,7 @@ namespace :db do
     desc 'Dump database data to fixtures.'
     task :dump do
       sql  = "SELECT * FROM %s"
-      skip_tables = ["schema_info", "schema_migrations"]
+      skip_tables = ["schema_info", "schema_migrations", "divisions", "conferences", "teams"]
       (ActiveRecord::Base.connection.tables - skip_tables).each do |table_name|
         i = "000"
         File.open("#{APP_ROOT}/db/data/#{table_name}.yml", 'w') do |file|
@@ -41,7 +41,8 @@ namespace :db do
     task :load do 
       require 'active_record/fixtures'
       class Division < ActiveRecord::Base; has_many :conferences; end
-      class Conference < ActiveRecord::Base; belongs_to :division; end
+      class Conference < ActiveRecord::Base; belongs_to :division; has_many :teams; end
+      class Team < ActiveRecord::Base; belongs_to :conference; end
 
       (ENV['FIXTURES'] ? ENV['FIXTURES'].split(/,/) : Dir.glob(File.join(APP_ROOT, 'db', 'data', '*.{yml,csv}'))).each do |fixture_file|
         Fixtures.create_fixtures('db/data', File.basename(fixture_file, '.*'))
