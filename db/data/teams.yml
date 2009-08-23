@@ -1,6 +1,7 @@
 DEFAULTS: &DEFAULTS
   updated_at: <%= Time.now.to_s(:db) %>
   created_at: <%= Time.now.to_s(:db) %>
+  yaml_label: $LABEL
 
 teams_591: 
   ncaa_name: Western New Mexico University

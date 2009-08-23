@@ -7,16 +7,20 @@ namespace :app do
         schedule = NcaaSchedule.new(*team.ncaa_attributes_array)
         schedule.games.each do |ncaa_game|
           game = team.games.build(ncaa_game)
-          opponent = Team.find_by_ncaa_name(ncaa_game[:opponent])
-          if opponent
-            game.opponent_id = opponent.id
-          else
-            game.note = ncaa_game[:opponent]
-          end
           next unless game.valid?
           game.save!
         end
         puts "#{schedule.games.length} -- #{team.reload.games.length}"
+      end
+    end
+
+    task :copy_opponent_to_games do 
+      games = Game.find(:all, :include => [:team, :opponent])
+      games.each do |game|
+        opponent = Team.find_by_ncaa_name(game.ncaa_opponent_name)
+        game.opponent = opponent
+        game.opponent_yaml_label = opponent.yaml_label unless opponent.nil?
+        game.save!
       end
     end
   end

@@ -28,17 +28,20 @@ ActiveRecord::Schema.define(:version => 2009072604003) do
   end
 
   create_table "games", :force => true do |t|
-    t.integer  "team_id"
-    t.integer  "opponent_id"
     t.date     "date"
     t.boolean  "home"
-    t.boolean  "neutral"
-    t.string   "opponent"
-    t.string   "result"
-    t.integer  "score_team"
-    t.integer  "score_opponent"
     t.string   "location"
+    t.string   "ncaa_opponent_name"
+    t.string   "ncaa_name"
+    t.boolean  "neutral"
+    t.integer  "opponent_id"
+    t.string   "opponent_yaml_label"
+    t.string   "result"
+    t.integer  "score_opponent"
+    t.integer  "score_team"
     t.string   "note"
+    t.integer  "team_id"
+    t.string   "team_yaml_label"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -47,7 +50,7 @@ ActiveRecord::Schema.define(:version => 2009072604003) do
     t.integer  "conference_id"
     t.string   "ncaa_id"
     t.string   "ncaa_name"
-    t.float    "ranking"
+    t.string   "yaml_label"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

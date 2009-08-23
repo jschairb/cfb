@@ -28,34 +28,26 @@ namespace :db do
       (ActiveRecord::Base.connection.tables - skip_tables).each do |table_name|
         i = "000"
         File.open("#{APP_ROOT}/db/data/#{table_name}.yml", 'w') do |file|
+          puts table_name
           data = ActiveRecord::Base.connection.select_all(sql % table_name)
           file.write data.inject({}) { |hash, record|
-            hash[sanitize_record_label(table_name,i,record)] = sanitize_record(record) 
+            hash["#{table_name}_#{i.succ!}"] = sanitize_record(record, table_name) 
             hash
           }.to_yaml
         end
       end
     end
 
-    def sanitize_record(record)
+    def sanitize_record(record, table_name)
       %w(id created_at updated_at).each do |col|
         record.delete(col)
       end
-      record.merge("<<".intern => "*DEFAULTS")
-    end
-
-    def sanitize_record_label(table_name, count, record)
-      if table_name == "teams"
-        if record['ncaa_name'].present?
-          record['ncaa_name'].gsub(" ", "").underscore.tableize
-        elsif record['ncaa_id'].present?
-          "ncaa_team_#{record['ncaa_id']}"
-        else
-          "#{table_name}_#{count.succ!}"
+      if table_name == "games"
+        %w(team_id opponent_id).each do |col|
+          record.delete(col)
         end
-      else
-        "#{table_name}_#{count.succ!}"
       end
+      record.merge("<<".intern => "*DEFAULTS")
     end
 
     desc 'Load data from fixtures. Uses development database.'

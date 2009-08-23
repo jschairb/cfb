@@ -33,14 +33,14 @@ class NcaaSchedule
     # 3 7 11 15 19 27
     @games = []
     @rows.each do |row|
-      game = { :opponent       => parse_element(row.children[3]),
-               :neutral        => parse_neutral(row.children[7]),
-               :date           => parse_date(row.children[11]),
-               :score_team     => parse_element(row.children[19]),
-               :score_opponent => parse_element(row.children[27]),
-               :result         => parse_result(row.children[15]),
-               :home           => parse_home(row.children[7]),
-        :location       => parse_location(row.children[7])}
+      game = { :ncaa_opponent_name => parse_element(row.children[3]),
+               :neutral            => parse_neutral(row.children[7]),
+               :date               => parse_date(row.children[11]),
+               :score_team         => parse_element(row.children[19]),
+               :score_opponent     => parse_element(row.children[27]),
+               :result             => parse_result(row.children[15]),
+               :home               => parse_home(row.children[7]),
+               :location           => parse_location(row.children[7])}
       @games << game
     end
   end
