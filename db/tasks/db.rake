@@ -42,6 +42,8 @@ namespace :db do
       %w(id created_at updated_at).each do |col|
         record.delete(col)
       end
+      record["team"] = Team.find(record["team_id"]).yaml_label
+      record["opponent"] = Team.find(record["opponent_id"]).yaml_label
       if table_name == "games"
         %w(team_id opponent_id).each do |col|
           record.delete(col)

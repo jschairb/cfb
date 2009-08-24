@@ -24,13 +24,11 @@ class InitialSchema < ActiveRecord::Migration
       t.string  :ncaa_name
       t.boolean :neutral
       t.integer :opponent_id
-      t.string  :opponent_yaml_label
       t.string  :result
       t.integer :score_opponent
       t.integer :score_team
       t.string  :note
       t.integer :team_id
-      t.string  :team_yaml_label
       
       t.timestamps
     end
@@ -44,6 +42,14 @@ class InitialSchema < ActiveRecord::Migration
       t.timestamps
     end
 
+    create_table :weeks do |t|
+      t.string :season
+      t.integer :number
+      t.date :start_date
+      t.date :end_date
+
+      t.timestamps
+    end
   end
 
   def self.down
@@ -51,5 +57,6 @@ class InitialSchema < ActiveRecord::Migration
     drop_table :divisions
     drop_table :games
     drop_table :teams
+    drop_table :weeks
   end
 end

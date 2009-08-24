@@ -8,6 +8,7 @@ require 'lib/conference'
 require 'lib/ncaa_schedule'
 require 'lib/team'
 require 'lib/game'
+require 'lib/week'
 
 require 'lib/web_team'
 require 'lib/web_team_list'

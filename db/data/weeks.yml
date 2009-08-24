@@ -1,0 +1,100 @@
+DEFAULTS: &DEFAULTS
+  updated_at: <%= Time.now.to_s(:db) %>
+  created_at: <%= Time.now.to_s(:db) %>
+
+week_6: 
+  start_date: "2008-09-22"
+  end_date: "2008-09-28"
+  number: "6"
+  season: "2008"
+  <<: *DEFAULTS
+week_7: 
+  start_date: "2008-09-29"
+  end_date: "2008-10-05"
+  number: "7"
+  season: "2008"
+  <<: *DEFAULTS
+week_8: 
+  start_date: "2008-10-06"
+  end_date: "2008-10-12"
+  number: "8"
+  season: "2008"
+  <<: *DEFAULTS
+week_9: 
+  start_date: "2008-10-13"
+  end_date: "2008-10-19"
+  number: "9"
+  season: "2008"
+  <<: *DEFAULTS
+week_10: 
+  start_date: "2008-10-20"
+  end_date: "2008-10-26"
+  number: "10"
+  season: "2008"
+  <<: *DEFAULTS
+week_11: 
+  start_date: "2008-10-27"
+  end_date: "2008-11-02"
+  number: "11"
+  season: "2008"
+  <<: *DEFAULTS
+week_12: 
+  start_date: "2008-11-03"
+  end_date: "2008-11-09"
+  number: "12"
+  season: "2008"
+  <<: *DEFAULTS
+week_1: 
+  start_date: "2008-08-18"
+  end_date: "2008-08-24"
+  number: "1"
+  season: "2008"
+  <<: *DEFAULTS
+week_13: 
+  start_date: "2008-11-10"
+  end_date: "2008-11-16"
+  number: "13"
+  season: "2008"
+  <<: *DEFAULTS
+week_2: 
+  start_date: "2008-08-25"
+  end_date: "2008-08-31"
+  number: "2"
+  season: "2008"
+  <<: *DEFAULTS
+week_14: 
+  start_date: "2008-11-17"
+  end_date: "2008-11-23"
+  number: "14"
+  season: "2008"
+  <<: *DEFAULTS
+week_3: 
+  start_date: "2008-09-01"
+  end_date: "2008-09-07"
+  number: "3"
+  season: "2008"
+  <<: *DEFAULTS
+week_15: 
+  start_date: "2008-11-24"
+  end_date: "2008-11-30"
+  number: "15"
+  season: "2008"
+  <<: *DEFAULTS
+week_4: 
+  start_date: "2008-09-08"
+  end_date: "2008-09-14"
+  number: "4"
+  season: "2008"
+  <<: *DEFAULTS
+week_16: 
+  start_date: "2008-12-01"
+  end_date: "2008-12-07"
+  number: "16"
+  season: "2008"
+  <<: *DEFAULTS
+week_5: 
+  start_date: "2008-09-15"
+  end_date: "2008-09-21"
+  number: "5"
+  season: "2008"
+  <<: *DEFAULTS

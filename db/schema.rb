@@ -35,13 +35,11 @@ ActiveRecord::Schema.define(:version => 2009072604003) do
     t.string   "ncaa_name"
     t.boolean  "neutral"
     t.integer  "opponent_id"
-    t.string   "opponent_yaml_label"
     t.string   "result"
     t.integer  "score_opponent"
     t.integer  "score_team"
     t.string   "note"
     t.integer  "team_id"
-    t.string   "team_yaml_label"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -51,6 +49,15 @@ ActiveRecord::Schema.define(:version => 2009072604003) do
     t.string   "ncaa_id"
     t.string   "ncaa_name"
     t.string   "yaml_label"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "weeks", :force => true do |t|
+    t.string   "season"
+    t.integer  "number"
+    t.date     "start_date"
+    t.date     "end_date"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
