@@ -14,12 +14,11 @@ namespace :app do
       end
     end
 
-    task :copy_opponent_to_games do 
-      games = Game.find(:all, :include => [:team, :opponent])
-      games.each do |game|
-        opponent = Team.find_by_ncaa_name(game.ncaa_opponent_name)
-        game.opponent = opponent
-        game.opponent_yaml_label = opponent.yaml_label unless opponent.nil?
+    task :copy_weeks_to_games do 
+      Game.all.each do |game|
+        week = Week.find(:first, 
+          :conditions => ["weeks.start_date < ? AND weeks.end_date > ?", game.date, game.date])
+        game.week = week
         game.save!
       end
     end

@@ -29,6 +29,7 @@ class InitialSchema < ActiveRecord::Migration
       t.integer :score_team
       t.string  :note
       t.integer :team_id
+      t.integer :week_id
       
       t.timestamps
     end

@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(:version => 2009072604003) do
     t.integer  "score_team"
     t.string   "note"
     t.integer  "team_id"
+    t.integer  "week_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

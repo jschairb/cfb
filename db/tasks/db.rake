@@ -24,7 +24,7 @@ namespace :db do
     desc 'Dump database data to fixtures.'
     task :dump do
       sql  = "SELECT * FROM %s"
-      skip_tables = ["schema_info", "schema_migrations", "divisions", "conferences", "teams"]
+      skip_tables = ["schema_info", "schema_migrations", "divisions", "conferences", "teams", "weeks"]
       (ActiveRecord::Base.connection.tables - skip_tables).each do |table_name|
         i = "000"
         File.open("#{APP_ROOT}/db/data/#{table_name}.yml", 'w') do |file|
@@ -42,14 +42,16 @@ namespace :db do
       %w(id created_at updated_at).each do |col|
         record.delete(col)
       end
-      record["team"] = Team.find(record["team_id"]).yaml_label
-      record["opponent"] = Team.find(record["opponent_id"]).yaml_label
+      record["team"] = Team.find(record["team_id"]).yaml_label unless record["team_id"].nil?
+      record["opponent"] = Team.find(record["opponent_id"]).yaml_label unless record["opponent_id"].nil?
+      week = Week.find(record["week_id"])
+      record["week"] = "weeks_#{week.position}" if week
       if table_name == "games"
-        %w(team_id opponent_id).each do |col|
+        %w(team_id opponent_id week_id).each do |col|
           record.delete(col)
         end
       end
-      record.merge("<<".intern => "*DEFAULTS")
+      record.merge("<<" => "*DEFAULTS")
     end
 
     desc 'Load data from fixtures. Uses development database.'
