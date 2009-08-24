@@ -44,8 +44,8 @@ namespace :db do
       end
       record["team"] = Team.find(record["team_id"]).yaml_label unless record["team_id"].nil?
       record["opponent"] = Team.find(record["opponent_id"]).yaml_label unless record["opponent_id"].nil?
-      week = Week.find(record["week_id"])
-      record["week"] = "weeks_#{week.position}" if week
+      week = Week.find(record["week_id"]) if record["week_id"]
+      record["week"] = "weeks_#{week.number}" if week
       if table_name == "games"
         %w(team_id opponent_id week_id).each do |col|
           record.delete(col)
