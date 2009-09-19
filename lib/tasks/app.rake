@@ -23,4 +23,10 @@ namespace :app do
       end
     end
   end
+  namespace :ratings do 
+    desc "creates ratings for all weeks"
+    task :compute do 
+      Rating.compute()
+    end
+  end
 end

@@ -5,6 +5,8 @@ require 'pathname'
 APP_ROOT = "#{File.dirname(__FILE__)}/.." unless defined?(APP_ROOT)
 ENV['APP_ENV'] ||= 'development'
 
+POINT_VALUES = YAML.load_file(APP_ROOT + '/config/point_values.yml') unless defined?(POINT_VALUES)
+
 module App
 
   class << self

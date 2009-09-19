@@ -45,6 +45,16 @@ ActiveRecord::Schema.define(:version => 2009072604003) do
     t.datetime "updated_at"
   end
 
+  create_table "ratings", :force => true do |t|
+    t.integer  "game_id"
+    t.integer  "division_points"
+    t.integer  "conference_points"
+    t.integer  "location_points"
+    t.integer  "first_level_subtotal"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "teams", :force => true do |t|
     t.integer  "conference_id"
     t.string   "ncaa_id"

@@ -1,0 +1,14 @@
+divisions:
+  FBS:  5
+  FCS:  3
+  DII:  2
+  DIII: 1
+  NAIA: 0
+  NON:  0
+conferences:
+  in:  1
+  out: 0
+locations:
+  home: 0
+  neutral: 1
+  away: 2

@@ -39,7 +39,7 @@ class InitialSchema < ActiveRecord::Migration
       t.integer :division_points
       t.integer :conference_points
       t.integer :location_points
-      t.integer :total
+      t.integer :first_level_subtotal
  
       t.timestamps
     end
